@@ -12,6 +12,15 @@ http://juanantonio.info/lejos-ebook/
 
 Pending
 
+## Chapter 3: Sensors
+
+In this chapter, we will cover the most popular sensors compatible with EV3 Brick.
+
+![ScreenShot](https://raw.githubusercontent.com/jabrena/livingrobots/master/chapter3/GyroSensor/models/Magic8Ball.png)
+
+    Example: IRSensor to detect a Beacon
+    Example: The magic 8 ball using a EV3GyroSensor
+
 ## Chapter 15: Hacking robots
 
 It is very important to ensure that your robot operates in a secure environment. Learn some stuff about security for Robots and avoid future robot's hacks.
