@@ -22,8 +22,11 @@ It is very important that it is necessary to ensure that your robot operates in 
     Example: Hack your SSH root account using Brute force
 
 http://www.openwall.com/john/
+
 http://www.jcraft.com/jsch/
+
 https://www.thc.org/thc-hydra/
+
 http://nmap.org/
 
 
