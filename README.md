@@ -12,3 +12,10 @@ http://juanantonio.info/lejos-ebook/
 
 Pending
 
+## Pending
+
+    root@(none):~# start-stop-daemon -K -n httpd
+    stopped httpd (pid 1823)
+    root@(none):~# httpd -v -h /home/lejos/www/
+
+
