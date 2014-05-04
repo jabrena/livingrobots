@@ -14,7 +14,7 @@ Pending
 
 ## Chapter 15: Hacking robots
 
-It is very important that it is necessary to ensure that your robot operates in a secure environment.
+It is very important to ensure that your robot operates in a secure environment. Learn some stuff about security for Robots and avoid future robot's hacks.
 
 ![ScreenShot](https://raw.githubusercontent.com/jabrena/livingrobots/master/chapter15/docs/Tachikoma.png)
 
