@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta content='text/html; charset=UTF-8' http-equiv='Content-Type'/>
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<title>EV3 Web UI</title>
+	
+	<meta name="generator" content="Juan Antonio Brenha Moral" />
+	<meta name='Author' content='Juan Antonio Brenha Moral' />
+	
+	
+	<!-- CSS -->
+	<link rel="stylesheet" href="./styles/bootstrap.css">
+	<link rel="stylesheet" href="./styles/bootstrap-responsive.css">
+	<link rel="stylesheet" href="./styles/ev3webui.css">
+	
+	<!-- JAVASCRIPT -->
+ 	<script type="text/javascript" src="./js/jquery-2.0.3.min.js" ></script>
+	<script type="text/javascript" src="./js/WebSocketConnector.js" ></script>
+	<script type="text/javascript" src="./js/RemoteControl.js" ></script>
+</head>
+<body>
+	<!-- Main Container-->
+	<div class="container">
+	
+		<!-- HEADER -->
+		<div class="navbar navbar-inverse navbar-fixed-top nav-separator">
+		    <div class="navbar-inner">
+		        <div class="container">
+		            <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+		                <span class="icon-bar"></span>
+		                <span class="icon-bar"></span>
+		                <span class="icon-bar"></span>
+		            </button>
+		            <!-- Main Navigation System -->
+		            <a class="brand" href="#">EV3 Web UI</a>
+		            <div class="nav-collapse collapse">
+		                <ul class="nav">
+		                    <li class="active"><a href="#">Main</a></li>
+		                </ul>
+		            </div>
+		        </div>
+		    </div>
+		</div>
+		<!-- END HEADER -->
+	
+		<div class="bodyContent">
+	
+			<div class="row-fluid">
+				<div class="span4">
+					<h1>EV3 Web UI</h1>
+					<p>
+<b>EV3 Web UI</b> is a easy way to connect with your EV3 robot using Web Sockets. 
+					</p>
+					<form action="#" id="webSocketForm" name="webSocketForm" >
+						<fieldset>
+							<div class="control-group">
+								<label for="ip" class="control-label span3">IP *</label>
+								<div class="controls"><input type="text" id="ip" name="ip" class="string required span9" value="192.168.43.62" /></div>
+							</div>
+							<div class="control-group">
+								<label for="port" class="control-label span3">Port *</label>
+								<div class="controls"><input type="text" id="port" name="port" class="string required span9" value="20000" /></div>
+							</div>
+							<div class="control-group">
+								<label for="btConnect" class="control-label span3">Actions *</label>
+								<div class="controls">
+									<button type="button" class="btn connectWS" id="btConnect">Connect</button>
+									<button type="button" class="btn disconnectWS" id="btDisconnect">Disconnect</button>
+								</div>
+							</div>
+						</fieldset>
+					</form>
+				</div>
+				<div class="span4">
+					<h2>Remote Control</h1>
+					<p>
+Once you have stablished the Web Socket connection, you can manage your robot using this UI.
+					</p>
+					<form action="#" id="webSocketForm" name="remoteControl" >
+						<div class="control-group">
+							<div class="controls span4">&nbsp;</div>
+							<div class="controls span4">
+								<button type="button" class="btn btUP" id="btUP" value="UP">UP</button>
+							</div>
+							<div class="controls span4">&nbsp;</div>
+						</div>
+						<div class="control-group">
+							<div class="controls span4">
+								<button type="button" class="btn btLEFT" id="btLEFT" value="LEFT">LEFT</button>
+							</div>
+							<div class="controls span4">&nbsp;</div>
+							<div class="controls span4">
+								<button type="button" class="btn btRIGHT" id="btRIGHT" value="RIGHT">RIGHT</button>
+							</div>
+						</div>
+						<div class="control-group">
+							<div class="controls span4">&nbsp;</div>
+							<div class="controls span4">
+								<button type="button" class="btn btDOWN" id="btDOWN" value="DOWN">DOWN</button>
+							</div>
+							<div class="controls span4">&nbsp;</div>
+						</div>
+					</form>		
+				</div>
+				<div class="span4">
+					<h2>Log</h1>
+					<p>In this section, you will analyze communications between your web browser and your EV3 Brick.</p>
+					<div id="output"></div>
+				</div>
+			</div>
+
+			<!-- FOOTER -->
+			<div class="footer">
+				<hr />
+				<p>&copy; Juan Antonio Bre&ntilde;a Moral 1997-2014</p>
+				<p><a href="http://html5.validator.nu/?doc=http%3A%2F%2Fwww.juanantonio.info%2Findex.htm" target="_blank">This HTML5 document is valid</a>
+			</div>
+
+		</div>
+	</div>
+</body>
+</html>
