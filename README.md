@@ -19,7 +19,7 @@ It is very important that it is necessary to ensure that your robot operates in 
 ![ScreenShot](https://raw.githubusercontent.com/jabrena/livingrobots/master/chapter15/docs/Tachikoma.png)
 
     Example: Discover ports opened in your EV3 Brick
-    Example: Hack your root account using Brute force
+    Example: Hack your SSH root account using Brute force
 
 ## Pending
 
