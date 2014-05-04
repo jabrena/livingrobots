@@ -63,8 +63,6 @@ Besides, the reader will learn to use the Webserver included in the Busybox dist
     stopped httpd (pid 1823)
     root@(none):~# httpd -v -h /home/lejos/www/
 
-http://wiki.openwrt.org/doc/howto/http.httpd
-
 ## Chapter 9: Communications
 
 Pending
