@@ -21,6 +21,12 @@ It is very important that it is necessary to ensure that your robot operates in 
     Example: Discover ports opened in your EV3 Brick
     Example: Hack your SSH root account using Brute force
 
+http://www.openwall.com/john/
+http://www.jcraft.com/jsch/
+https://www.thc.org/thc-hydra/
+http://nmap.org/
+
+
 ## Pending
 
     root@(none):~# start-stop-daemon -K -n httpd
