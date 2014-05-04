@@ -31,7 +31,11 @@ Pending
 
 ## Chapter 5: Navigation
 
-Pending
+In this chapter, user will learn basic concepts about Local & Global navigation
+
+### Occupancy grid maps
+
+![ScreenShot](https://raw.githubusercontent.com/jabrena/livingrobots/master/chapter8/docs/mapping.png)
 
 ## Chapter 6: Cognition
 
@@ -43,9 +47,23 @@ Pending
 
 ## Chapter 8: Web UI for EV3
 
+In this Chapter, the reader will learn to develop Web UI for EV3. The user will learn to use Websockets, RFC 6455 & JSR 356.
+
+![ScreenShot](https://raw.githubusercontent.com/jabrena/livingrobots/master/chapter8/docs/remoteControl.jpg)
+
+https://jcp.org/en/jsr/detail?id=356
+
+https://tools.ietf.org/html/rfc6455
+
+https://github.com/TooTallNate/Java-WebSocket
+
+Besides, the reader will learn to use the Webserver included in the Busybox distro.
+
     root@(none):~# start-stop-daemon -K -n httpd
     stopped httpd (pid 1823)
     root@(none):~# httpd -v -h /home/lejos/www/
+
+http://wiki.openwrt.org/doc/howto/http.httpd
 
 ## Chapter 9: Communications
 
