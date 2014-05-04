@@ -8,7 +8,11 @@ http://juanantonio.info/lejos-ebook/
 
     2014/05/04: First commit
 
-## Introduction
+## Chapter 1: Introduction
+
+Pending
+
+## Chapter 2: Fundamentals of Robotics
 
 Pending
 
@@ -20,6 +24,32 @@ In this chapter, we will cover the most popular sensors compatible with EV3 Bric
 
     Example: IRSensor to detect a Beacon
     Example: The magic 8 ball using a EV3GyroSensor
+
+## Chapter 4: Actuators
+
+Pending
+
+## Chapter 5: Navigation
+
+Pending
+
+## Chapter 6: Cognition
+
+Pending
+
+## Chapter 7: Computer vision
+
+Pending
+
+## Chapter 8: Web UI for EV3
+
+    root@(none):~# start-stop-daemon -K -n httpd
+    stopped httpd (pid 1823)
+    root@(none):~# httpd -v -h /home/lejos/www/
+
+## Chapter 9: Communications
+
+Pending
 
 ## Chapter 15: Hacking robots
 
@@ -37,12 +67,4 @@ http://www.jcraft.com/jsch/
 https://www.thc.org/thc-hydra/
 
 http://nmap.org/
-
-
-## Pending
-
-    root@(none):~# start-stop-daemon -K -n httpd
-    stopped httpd (pid 1823)
-    root@(none):~# httpd -v -h /home/lejos/www/
-
 
