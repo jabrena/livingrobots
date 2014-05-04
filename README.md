@@ -37,6 +37,8 @@ In this chapter, user will learn basic concepts about Local & Global navigation
 
 ![ScreenShot](https://raw.githubusercontent.com/jabrena/livingrobots/master/chapter8/docs/mapping.png)
 
+http://www.cs.ox.ac.uk/people/michael.wooldridge/teaching/robotics/lect05.pdf
+
 ## Chapter 6: Cognition
 
 Pending
