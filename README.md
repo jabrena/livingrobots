@@ -12,6 +12,15 @@ http://juanantonio.info/lejos-ebook/
 
 Pending
 
+## Chapter 15: Hacking robots
+
+It is very important that it is necessary to ensure that your robot operates in a secure environment.
+
+![ScreenShot](https://raw.githubusercontent.com/jabrena/livingrobots/master/chapter15/docs/Tachikoma.png)
+
+Example: Discover ports opened in your EV3 Brick
+Example: Hack your root account using Brute force
+
 ## Pending
 
     root@(none):~# start-stop-daemon -K -n httpd
