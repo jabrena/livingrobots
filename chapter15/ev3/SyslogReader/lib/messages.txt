@@ -1,0 +1,223 @@
+Jan  1 00:06:34 (none) syslog.info syslogd started: BusyBox v1.13.2
+Jan  1 00:10:52 (none) user.notice kernel: klogd started: BusyBox v1.13.2 (2010-12-21 19:28:47 CST)
+Jan  1 00:10:52 (none) user.notice kernel: Linux version 2.6.33-rc4 (andy@ubuntu-VirtualBox) (gcc version 4.3.3 (Sourcery G++ Lite 2009q1-203) ) #5 PREEMPT Mon Mar 17 22:52:34 CET 2014
+Jan  1 00:10:52 (none) user.warn kernel: CPU: ARM926EJ-S [41069265] revision 5 (ARMv5TEJ), cr=00053177
+Jan  1 00:10:52 (none) user.warn kernel: CPU: VIVT data cache, VIVT instruction cache
+Jan  1 00:10:52 (none) user.warn kernel: Machine: MindStorms EV3
+Jan  1 00:10:52 (none) user.warn kernel: Memory policy: ECC disabled, Data cache writeback
+Jan  1 00:10:52 (none) user.debug kernel: On node 0 totalpages: 16384
+Jan  1 00:10:52 (none) user.debug kernel: free_area_init_node: node 0, pgdat c04017f4, node_mem_map c0424000
+Jan  1 00:10:52 (none) user.debug kernel:   DMA zone: 128 pages used for memmap
+Jan  1 00:10:52 (none) user.debug kernel:   DMA zone: 0 pages reserved
+Jan  1 00:10:52 (none) user.debug kernel:   DMA zone: 16256 pages, LIFO batch:3
+Jan  1 00:10:52 (none) user.info kernel: DaVinci da850/omap-l138 variant 0x1
+Jan  1 00:10:52 (none) user.warn kernel: Built 1 zonelists in Zone order, mobility grouping on.  Total pages: 16256
+Jan  1 00:10:52 (none) user.notice kernel: Kernel command line: mem=64M console=ttyS1,115200n8 root=/dev/mmcblk0p2 rw rootwait ip=dhcp lpj=747520
+Jan  1 00:10:52 (none) user.info kernel: PID hash table entries: 256 (order: -2, 1024 bytes)
+Jan  1 00:10:52 (none) user.info kernel: Dentry cache hash table entries: 8192 (order: 3, 32768 bytes)
+Jan  1 00:10:52 (none) user.info kernel: Inode-cache hash table entries: 4096 (order: 2, 16384 bytes)
+Jan  1 00:10:52 (none) user.info kernel: Memory: 64MB = 64MB total
+Jan  1 00:10:52 (none) user.notice kernel: Memory: 60664KB available (3768K code, 304K data, 128K init, 0K highmem)
+Jan  1 00:10:52 (none) user.info kernel: SLUB: Genslabs=11, HWalign=32, Order=0-3, MinObjects=0, CPUs=1, Nodes=1
+Jan  1 00:10:52 (none) user.info kernel: Hierarchical RCU implementation.
+Jan  1 00:10:52 (none) user.info kernel: NR_IRQS:245
+Jan  1 00:10:52 (none) user.warn kernel: Console: colour dummy device 80x30
+Jan  1 00:10:52 (none) user.info kernel: Calibrating delay loop (skipped) preset value.. 1495.04 BogoMIPS (lpj=747520)
+Jan  1 00:10:52 (none) user.warn kernel: Mount-cache hash table entries: 512
+Jan  1 00:10:52 (none) user.info kernel: CPU: Testing write buffer coherency: ok
+Jan  1 00:10:52 (none) user.info kernel: DaVinci: 144 gpio irqs
+Jan  1 00:10:52 (none) user.info kernel: NET: Registered protocol family 16
+Jan  1 00:10:52 (none) user.warn kernel: start  da850_init_spi 8
+Jan  1 00:10:52 (none) user.warn kernel: end  da850_init_spi -1072143344
+Jan  1 00:10:52 (none) user.info kernel: da850_evm_gpio_req_BT_EN
+Jan  1 00:10:52 (none) user.info kernel: Support for Bluetooth shut dw pin
+Jan  1 00:10:52 (none) user.warn kernel: bio: create slab <bio-0> at 0
+Jan  1 00:10:52 (none) user.notice kernel: SCSI subsystem initialized
+Jan  1 00:10:52 (none) user.info kernel: usbcore: registered new interface driver usbfs
+Jan  1 00:10:52 (none) user.info kernel: usbcore: registered new interface driver hub
+Jan  1 00:10:52 (none) user.info kernel: usbcore: registered new device driver usb
+Jan  1 00:10:52 (none) user.info kernel: Bluetooth: Core ver 2.15
+Jan  1 00:10:52 (none) user.info kernel: NET: Registered protocol family 31
+Jan  1 00:10:52 (none) user.info kernel: Bluetooth: HCI device and connection manager initialized
+Jan  1 00:10:52 (none) user.info kernel: Bluetooth: HCI socket layer initialized
+Jan  1 00:10:52 (none) user.info kernel: Switching to clocksource timer0_1
+Jan  1 00:10:52 (none) user.info kernel: musb_hdrc: version 6.0, pio, peripheral, debug=0
+Jan  1 00:10:52 (none) user.info kernel: Waiting for USB PHY clock good...
+Jan  1 00:10:52 (none) user.debug kernel: musb_hdrc: ConfigData=0x06 (UTMI-8, dyn FIFOs, SoftConn)
+Jan  1 00:10:52 (none) user.debug kernel: musb_hdrc: MHDRC RTL version 1.800 
+Jan  1 00:10:52 (none) user.debug kernel: musb_hdrc: setup fifo_mode 2
+Jan  1 00:10:52 (none) user.debug kernel: musb_hdrc: 7/9 max ep, 3904/4096 memory
+Jan  1 00:10:52 (none) user.info kernel: musb_hdrc: USB Peripheral mode controller at fee00000 using PIO, IRQ 58
+Jan  1 00:10:52 (none) user.info kernel: NET: Registered protocol family 2
+Jan  1 00:10:52 (none) user.info kernel: IP route cache hash table entries: 1024 (order: 0, 4096 bytes)
+Jan  1 00:10:52 (none) user.info kernel: TCP established hash table entries: 2048 (order: 2, 16384 bytes)
+Jan  1 00:10:52 (none) user.info kernel: TCP bind hash table entries: 2048 (order: 1, 8192 bytes)
+Jan  1 00:10:52 (none) user.info kernel: TCP: Hash tables configured (established 2048 bind 2048)
+Jan  1 00:10:52 (none) user.info kernel: TCP reno registered
+Jan  1 00:10:52 (none) user.info kernel: UDP hash table entries: 256 (order: 0, 4096 bytes)
+Jan  1 00:10:52 (none) user.info kernel: UDP-Lite hash table entries: 256 (order: 0, 4096 bytes)
+Jan  1 00:10:52 (none) user.info kernel: NET: Registered protocol family 1
+Jan  1 00:10:52 (none) user.info kernel: RPC: Registered udp transport module.
+Jan  1 00:10:52 (none) user.info kernel: RPC: Registered tcp transport module.
+Jan  1 00:10:52 (none) user.info kernel: RPC: Registered tcp NFSv4.1 backchannel transport module.
+Jan  1 00:10:52 (none) user.info kernel: da850_evm_config_pru_suart configuration
+Jan  1 00:10:52 (none) user.info kernel: msgmni has been set to 118
+Jan  1 00:10:52 (none) user.info kernel: alg: No test for stdrng (krng)
+Jan  1 00:10:52 (none) user.info kernel: io scheduler noop registered (default)
+Jan  1 00:10:52 (none) user.info kernel: Serial: 8250/16550 driver, 3 ports, IRQ sharing disabled
+Jan  1 00:10:52 (none) user.info kernel: serial8250.0: ttyS0 at MMIO 0x1c42000 (irq = 25) is a AR7
+Jan  1 00:10:52 (none) user.info kernel: serial8250.0: ttyS1 at MMIO 0x1d0c000 (irq = 53) is a AR7
+Jan  1 00:10:52 (none) user.info kernel: console [ttyS1] enabled
+Jan  1 00:10:52 (none) user.info kernel: serial8250.0: ttyS2 at MMIO 0x1d0d000 (irq = 61) is a AR7
+Jan  1 00:10:52 (none) user.info kernel: brd: module loaded
+Jan  1 00:10:52 (none) user.info kernel: loop: module loaded
+Jan  1 00:10:52 (none) user.info kernel: spi_davinci spi_davinci.0: DMA: supported
+Jan  1 00:10:52 (none) user.info kernel: spi_davinci spi_davinci.0: DMA: RX channel: 14, TX channel: 15, event queue: 0
+Jan  1 00:10:52 (none) user.info kernel: spi_davinci spi_davinci.0: Reset In/OUT SPI module
+Jan  1 00:10:52 (none) user.info kernel: spi_davinci spi_davinci.0: Set up SPIPC0.  CS and ENA init is done in davinci_spi_setup
+Jan  1 00:10:52 (none) user.info kernel: spi_davinci spi_davinci.0: initialize chip selects
+Jan  1 00:10:52 (none) user.info kernel: spi_davinci spi_davinci.0: master mode default 
+Jan  1 00:10:52 (none) user.info kernel: spi_davinci spi_davinci.0: master mode default end 
+Jan  1 00:10:52 (none) user.info kernel: m25p80 spi0.0: non-JEDEC variant of s25sl12801
+Jan  1 00:10:52 (none) user.info kernel: m25p80 spi0.0: s25sl12801 (16384 Kbytes)
+Jan  1 00:10:52 (none) user.notice kernel: Creating 5 MTD partitions on "m25p80":
+Jan  1 00:10:52 (none) user.notice kernel: 0x000000000000-0x000000040000 : "U-Boot"
+Jan  1 00:10:52 (none) user.notice kernel: 0x000000040000-0x000000050000 : "U-Boot Env"
+Jan  1 00:10:52 (none) user.notice kernel: 0x000000050000-0x000000250000 : "Kernel"
+Jan  1 00:10:52 (none) user.notice kernel: 0x000000250000-0x000000cb0000 : "Filesystem"
+Jan  1 00:10:52 (none) user.notice kernel: 0x000000cb0000-0x000001000000 : "Storage"
+Jan  1 00:10:52 (none) user.info kernel: spi_davinci spi_davinci.0: spi_bitbang_start 
+Jan  1 00:10:52 (none) user.info kernel: spi_davinci spi_davinci.0: Controller at 0xfec41000
+Jan  1 00:10:52 (none) user.info kernel: spi_davinci spi_davinci.1: DMA: supported
+Jan  1 00:10:52 (none) user.info kernel: spi_davinci spi_davinci.1: DMA: RX channel: 18, TX channel: 19, event queue: 1
+Jan  1 00:10:52 (none) user.info kernel: spi_davinci spi_davinci.1: Reset In/OUT SPI module
+Jan  1 00:10:52 (none) user.info kernel: spi_davinci spi_davinci.1: Set up SPIPC0.  CS and ENA init is done in davinci_spi_setup
+Jan  1 00:10:52 (none) user.info kernel: spi_davinci spi_davinci.1: initialize chip selects
+Jan  1 00:10:52 (none) user.info kernel: spi_davinci spi_davinci.1: master mode default 
+Jan  1 00:10:52 (none) user.info kernel: spi_davinci spi_davinci.1: master mode default end 
+Jan  1 00:10:52 (none) user.warn kernel: Console: switching to mono frame buffer device 22x8
+Jan  1 00:10:52 (none) user.info kernel: fb0: ST7586 frame buffer device, using 7.5 KiB of video memory
+Jan  1 00:10:52 (none) user.info kernel: spi_davinci spi_davinci.1: spi_bitbang_start 
+Jan  1 00:10:52 (none) user.info kernel: spi_davinci spi_davinci.1: Controller at 0xfef0e000
+Jan  1 00:10:52 (none) user.info kernel: pegasus: v0.6.14 (2006/09/27), Pegasus/Pegasus II USB Ethernet driver
+Jan  1 00:10:52 (none) user.info kernel: usbcore: registered new interface driver pegasus
+Jan  1 00:10:52 (none) user.info kernel: usbcore: registered new interface driver asix
+Jan  1 00:10:52 (none) user.info kernel: usbcore: registered new interface driver cdc_ether
+Jan  1 00:10:52 (none) user.info kernel: usbcore: registered new interface driver net1080
+Jan  1 00:10:52 (none) user.info kernel: usbcore: registered new interface driver rndis_host
+Jan  1 00:10:52 (none) user.info kernel: usbcore: registered new interface driver cdc_subset
+Jan  1 00:10:52 (none) user.info kernel: console [netcon0] enabled
+Jan  1 00:10:52 (none) user.info kernel: netconsole: network logging started
+Jan  1 00:10:52 (none) user.info kernel: ohci_hcd: USB 1.1 'Open' Host Controller (OHCI) Driver
+Jan  1 00:10:52 (none) user.info kernel: ohci ohci.0: DA8xx OHCI
+Jan  1 00:10:52 (none) user.info kernel: ohci ohci.0: new USB bus registered, assigned bus number 1
+Jan  1 00:10:52 (none) user.info kernel: ohci ohci.0: irq 59, io mem 0x01e25000
+Jan  1 00:10:52 (none) user.info kernel: hub 1-0:1.0: USB hub found
+Jan  1 00:10:52 (none) user.info kernel: hub 1-0:1.0: 1 port detected
+Jan  1 00:10:52 (none) user.info kernel: da850_evm_usb_set_power
+Jan  1 00:10:52 (none) user.info kernel: da850_evm_usb_ocic_notify
+Jan  1 00:10:52 (none) user.info kernel: da850_evm_usb_ocic_handler = handler
+Jan  1 00:10:52 (none) user.info kernel: Initializing USB Mass Storage driver...
+Jan  1 00:10:52 (none) user.info kernel: usbcore: registered new interface driver usb-storage
+Jan  1 00:10:52 (none) user.info kernel: USB Mass Storage support registered.
+Jan  1 00:10:52 (none) user.info kernel: omap_rtc omap_rtc: rtc core: registered omap_rtc as rtc0
+Jan  1 00:10:52 (none) user.info kernel: omap_rtc: RTC power up reset detected
+Jan  1 00:10:52 (none) user.info kernel: i2c /dev entries driver
+Jan  1 00:10:52 (none) user.info kernel: watchdog watchdog: heartbeat 60 sec
+Jan  1 00:10:52 (none) user.info kernel: Bluetooth: HCI UART driver ver 2.2
+Jan  1 00:10:52 (none) user.info kernel: Bluetooth: HCI H4 protocol initialized
+Jan  1 00:10:52 (none) user.info kernel: Bluetooth: HCI BCSP protocol initialized
+Jan  1 00:10:52 (none) user.info kernel: Bluetooth: HCILL protocol initialized
+Jan  1 00:10:52 (none) user.info kernel: davinci_mmc davinci_mmc.0: Using DMA, 4-bit mode
+Jan  1 00:10:52 (none) user.info kernel: usbcore: registered new interface driver usbhid
+Jan  1 00:10:52 (none) user.info kernel: usbhid: USB HID core driver
+Jan  1 00:10:52 (none) user.info kernel: TCP cubic registered
+Jan  1 00:10:52 (none) user.info kernel: NET: Registered protocol family 17
+Jan  1 00:10:52 (none) user.notice kernel: Bridge firewalling registered
+Jan  1 00:10:52 (none) user.info kernel: Bluetooth: L2CAP ver 2.14
+Jan  1 00:10:52 (none) user.info kernel: Bluetooth: L2CAP socket layer initialized
+Jan  1 00:10:52 (none) user.info kernel: Bluetooth: RFCOMM TTY layer initialized
+Jan  1 00:10:52 (none) user.info kernel: Bluetooth: RFCOMM socket layer initialized
+Jan  1 00:10:52 (none) user.info kernel: Bluetooth: RFCOMM ver 1.11
+Jan  1 00:10:52 (none) user.info kernel: Bluetooth: BNEP (Ethernet Emulation) ver 1.3
+Jan  1 00:10:52 (none) user.info kernel: omap_rtc omap_rtc: setting system clock to 2000-01-01 00:00:00 UTC (946684800)
+Jan  1 00:10:52 (none) user.err kernel: IP-Config: No network devices available.
+Jan  1 00:10:52 (none) user.info kernel: Waiting for root device /dev/mmcblk0p2...
+Jan  1 00:10:52 (none) user.warn kernel: mmc0: host does not support reading read-only switch. assuming write-enable.
+Jan  1 00:10:52 (none) user.info kernel: mmc0: new high speed SDHC card at address 0002
+Jan  1 00:10:52 (none) user.info kernel: mmcblk0: mmc0:0002 00000 3.66 GiB 
+Jan  1 00:10:52 (none) user.info kernel:  mmcblk0: p1 p2
+Jan  1 00:10:52 (none) user.warn kernel: EXT2-fs (mmcblk0p2): warning: mounting unchecked fs, running e2fsck is recommended
+Jan  1 00:10:52 (none) user.warn kernel: VFS: Mounted root (ext2 filesystem) on device 179:2.
+Jan  1 00:10:52 (none) user.info kernel: Freeing init memory: 128K
+Jan  1 00:10:52 (none) user.warn kernel: g_ether gadget: using random self ethernet address
+Jan  1 00:10:52 (none) user.warn kernel: g_ether gadget: using random host ethernet address
+Jan  1 00:10:52 (none) user.info kernel: usb0: MAC da:0d:ea:99:3b:92
+Jan  1 00:10:52 (none) user.info kernel: usb0: HOST MAC fa:1f:ab:1e:bf:bc
+Jan  1 00:10:52 (none) user.info kernel: g_ether gadget: Ethernet Gadget, version: Memorial Day 2008
+Jan  1 00:10:52 (none) user.info kernel: g_ether gadget: g_ether ready
+Jan  1 00:10:52 (none) user.err kernel: da8xx_interrupt 495: Unhandled USB IRQ 00010000
+Jan  1 00:10:52 (none) user.info kernel: device usb0 entered promiscuous mode
+Jan  1 00:10:52 (none) user.err kernel: da8xx_interrupt 495: Unhandled USB IRQ 00090000
+Jan  1 00:10:52 (none) user.info kernel: g_ether gadget: high speed config #1: CDC Ethernet (ECM)
+Jan  1 00:10:52 (none) user.info kernel: br0: port 1(usb0) entering forwarding state
+Jan  1 00:10:52 (none) user.warn kernel: IIC_SET_CONN c00c6902
+Jan  1 00:10:52 (none) user.warn kernel: IIC_READ_TYPE_INFO c03c6903
+Jan  1 00:10:52 (none) user.warn kernel: IIC_SETUP c04c6905
+Jan  1 00:10:52 (none) user.warn kernel: IIC_SET c02c6906
+Jan  1 00:10:52 (none) user.warn kernel: IICDAT size 76
+Jan  1 00:10:52 (none) user.warn kernel: IICDAT port offset 4
+Jan  1 00:10:52 (none) user.warn kernel: IICDAT repeat offset 5
+Jan  1 00:10:52 (none) user.warn kernel: IICDAT RdLen offset 41
+Jan  1 00:10:52 (none) user.warn kernel: IIC size 42748
+Jan  1 00:10:52 (none) user.warn kernel: IIC status offset 42608
+Jan  1 00:10:52 (none) user.warn kernel: IIC changed offset 42612
+Jan  1 00:10:52 (none) user.warn kernel: memory okmem address ff001000
+Jan  1 00:10:52 (none) user.warn kernel: mem size 42744
+Jan  1 00:10:52 (none) user.warn kernel: status offset 42608
+Jan  1 00:10:52 (none) user.warn kernel: input offset 4192
+Jan  1 00:10:52 (none) user.warn kernel: input offset 113792
+Jan  1 00:10:52 (none) user.warn kernel: actual offset 42592
+Jan  1 00:10:52 (none) user.warn kernel: LogIn offset 42600
+Jan  1 00:10:52 (none) user.warn kernel: UART_SET_CONN c00c7500
+Jan  1 00:10:52 (none) user.warn kernel: UART_READ_MODE_INFO c03c7501
+Jan  1 00:10:52 (none) user.warn kernel: UART_NACK_MODE_INFO c03c7502
+Jan  1 00:10:52 (none) user.warn kernel: UART_CLEAR_CHANGED c03c7503
+Jan  1 00:10:52 (none) user.warn kernel: hrtimer: interrupt took 185833 ns
+Jan  1 00:10:52 (none) user.warn kernel: uartctl sz 60
+Jan  1 00:10:52 (none) user.warn kernel: port offset 56
+Jan  1 00:10:52 (none) user.warn kernel: New uart driver
+Jan  1 00:10:52 (none) user.warn kernel: long 4
+Jan  1 00:10:52 (none) user.warn kernel: long long 8
+Jan  1 00:10:52 (none) user.warn kernel: sm size 32 32
+Jan  1 00:10:52 (none) user.warn kernel: div 0
+Jan  1 00:10:52 (none) user.warn kernel: Analog mem size 5172
+Jan  1 00:10:52 (none) user.warn kernel: InDcm offset 5156
+Jan  1 00:10:52 (none) user.warn kernel: InConn offset 5160
+Jan  1 00:10:52 (none) user.warn kernel: OutDcm offset 5164
+Jan  1 00:10:52 (none) user.warn kernel: OutConn offset 5168
+Jan  1 00:10:52 (none) user.warn kernel: Actual offset 4832
+Jan  1 00:10:52 (none) user.warn kernel: Pin6 offset 2432
+Jan  1 00:10:52 (none) user.warn kernel: Pin1 offset 32
+Jan  1 00:10:52 (none) user.warn kernel: NxtCol[0] offset 4856
+Jan  1 00:10:52 (none) user.warn kernel: NxtCol[1] offset 4928
+Jan  1 00:10:52 (none) user.warn kernel: Console: switching to colour dummy device 80x30
+Jan  1 00:12:26 (none) syslog.info syslogd started: BusyBox v1.13.2
+Jan  1 00:12:56 (none) authpriv.info dropbear[1606]: Child connection from 10.0.1.13:60002
+Jan  1 00:12:58 (none) authpriv.warn dropbear[1606]: bad password attempt for 'root' from 10.0.1.13:60002
+Jan  1 00:14:02 (none) syslog.info syslogd started: BusyBox v1.13.2
+Jan  1 00:14:07 (none) authpriv.warn dropbear[1606]: bad password attempt for 'root' from 10.0.1.13:60002
+Jan  1 00:14:10 (none) syslog.info syslogd started: BusyBox v1.13.2
+Jan  1 00:14:17 (none) syslog.info syslogd started: BusyBox v1.13.2
+Jan  1 00:14:21 (none) authpriv.warn dropbear[1606]: bad password attempt for 'root' from 10.0.1.13:60002
+Jan  1 00:14:21 (none) authpriv.info dropbear[1606]: exit before auth (user 'root', 3 fails): Exited normally
+Jan  1 00:14:26 (none) syslog.info syslogd started: BusyBox v1.13.2
+Jan  1 00:14:48 (none) authpriv.warn dropbear[1618]: bad password attempt for 'root' from 10.0.1.13:60416
+Jan  1 00:14:54 (none) syslog.info syslogd started: BusyBox v1.13.2
+Jan  1 00:14:57 (none) authpriv.warn dropbear[1618]: bad password attempt for 'root' from 10.0.1.13:60416
+Jan  1 00:14:59 (none) syslog.info syslogd started: BusyBox v1.13.2
+Jan  1 00:15:12 (none) authpriv.warn dropbear[1618]: bad password attempt for 'root' from 10.0.1.13:60416
+Jan  1 00:16:37 (none) syslog.info syslogd started: BusyBox v1.13.2
+Jan  1 00:17:12 (none) syslog.info syslogd started: BusyBox v1.13.2
+Jan  1 00:17:29 (none) syslog.info syslogd started: BusyBox v1.13.2
+Jan  1 00:17:39 (none) authpriv.warn dropbear[1641]: bad password attempt for 'root' from 10.0.1.13:61056
