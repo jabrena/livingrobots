@@ -88,34 +88,33 @@ https://www.youtube.com/watch?v=Q8uwwGtfm6U
 
     Example: Discover ports opened in your EV3 Brick
     Example: Hack your SSH root account using Brute force
+    Example: Read /var/volatile/log/ to discover ssh attacks
 
-syslogd -l 6
+    syslogd -l 6
 
-root@(none):/var/volatile/log# syslogd ?   
-BusyBox v1.13.2 (2010-12-21 19:28:47 CST) multi-call binary
+    root@(none):/var/volatile/log# syslogd ?   
+    BusyBox v1.13.2 (2010-12-21 19:28:47 CST) multi-call binary
 
-Usage: syslogd [OPTION]...
+    Usage: syslogd [OPTION]...
 
-System logging utility.
-Note that this version of syslogd ignores /etc/syslog.conf.
+    System logging utility.
+    Note that this version of syslogd ignores /etc/syslog.conf.
 
-Options:
-	-n		Run in foreground
-	-O FILE		Log to given file (default=/var/log/messages)
-	-l n		Set local log level
-	-S		Smaller logging output
-	-s SIZE		Max size (KB) before rotate (default=200KB, 0=off)
-	-b NUM		Number of rotated logs to keep (default=1, max=99, 0=purge)
-	-R HOST[:PORT]	Log to IP or hostname on PORT (default PORT=514/UDP)
-	-L		Log locally and via network (default is network only if -R)
-	-D		Drop duplicates
-	-C[size(KiB)]	Log to shared mem buffer (read it using logread)
+    Options:
+        -n		Run in foreground
+        -O FILE		Log to given file (default=/var/log/messages)
+        -l n		Set local log level
+        -S		Smaller logging output
+        -s SIZE		Max size (KB) before rotate (default=200KB, 0=off)
+        -b NUM		Number of rotated logs to keep (default=1, max=99, 0=purge)
+        -R HOST[:PORT]	Log to IP or hostname on PORT (default PORT=514/UDP)
+        -L		Log locally and via network (default is network only if -R)
+        -D		Drop duplicates
+        -C[size(KiB)]	Log to shared mem buffer (read it using logread)
 
-cd /var/volatile/log/
-
-cat messages
-
-scp lejos@10.0.1.1:/home/lejos/messages.txt /Users/jabrena/
+        cd /var/volatile/log/
+        cat messages
+        scp lejos@10.0.1.1:/home/lejos/messages.txt /Users/jabrena/
 
 http://freeware.the-meiers.org/
 
@@ -143,14 +142,14 @@ http://stackoverflow.com/questions/16980779/java-program-for-ddos-attack
 
 ## Appendices
 
-lejos@(none):~$ nc -l -p 10000
-nc: bind: Address already in use
-lejos@(none):~$ nc localhost 10000
-asdf
-asdf
-hello
+    lejos@(none):~$ nc -l -p 10000
+    nc: bind: Address already in use
+    lejos@(none):~$ nc localhost 10000
+    asdf
+    asdf
+    hello
 
-root@(none):~# nc -l -p 10000
-asdf
-asdf
-hello
+    root@(none):~# nc -l -p 10000
+    asdf
+    asdf
+    hello
