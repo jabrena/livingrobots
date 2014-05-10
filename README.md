@@ -100,34 +100,8 @@ https://www.youtube.com/watch?v=Q8uwwGtfm6U
     Example: Hack your SSH root account using Brute force
     Example: Read /var/volatile/log/ to discover ssh attacks
     Example: A mini example about a DOS Attack to the service httpd included Busybox
+    Example: Shell scripts to remove some innecesary processes
 
-
-    syslogd -l 6
-
-    root@(none):/var/volatile/log# syslogd ?   
-    BusyBox v1.13.2 (2010-12-21 19:28:47 CST) multi-call binary
-
-    Usage: syslogd [OPTION]...
-
-    System logging utility.
-    Note that this version of syslogd ignores /etc/syslog.conf.
-
-    Options:
-        -n		Run in foreground
-        -O FILE		Log to given file (default=/var/log/messages)
-        -l n		Set local log level
-        -S		Smaller logging output
-        -s SIZE		Max size (KB) before rotate (default=200KB, 0=off)
-        -b NUM		Number of rotated logs to keep (default=1, max=99, 0=purge)
-        -R HOST[:PORT]	Log to IP or hostname on PORT (default PORT=514/UDP)
-        -L		Log locally and via network (default is network only if -R)
-        -D		Drop duplicates
-        -C[size(KiB)]	Log to shared mem buffer (read it using logread)
-
-        cd /var/volatile/log/
-        cat messages
-        scp lejos@10.0.1.1:/home/lejos/messages.txt /Users/jabrena/
-        scp /Users/jabrena/Documents/index.htm lejos@10.0.1.1:/home/lejos/www/
 
 http://freeware.the-meiers.org/
 
@@ -138,12 +112,6 @@ http://www.jcraft.com/jsch/
 https://www.thc.org/thc-hydra/
 
 http://nmap.org/
-
-http://www.netfilter.org/
-
-http://wiki.openwrt.org/doc/howto/log.messages
-
-http://wiki.openwrt.org/doc/howto/log.essentials
 
 http://en.wikipedia.org/wiki/Syslog
 
