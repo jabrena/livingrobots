@@ -14,7 +14,6 @@ import java.util.List;
 import livingrobots.ev3.ch15.syslog.Message;
 import livingrobots.ev3.ch15.syslog.SyslogParser;
 
-import org.joda.time.Days;
 import org.joda.time.Hours;
 import org.joda.time.LocalDate;
 
