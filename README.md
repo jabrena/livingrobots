@@ -58,12 +58,6 @@ In this Chapter, the reader will learn to develop Web UI for EV3. The user will 
 
 ![ScreenShot](https://raw.githubusercontent.com/jabrena/livingrobots/master/chapter8/docs/remoteControl.jpg)
 
-https://jcp.org/en/jsr/detail?id=356
-
-https://tools.ietf.org/html/rfc6455
-
-https://github.com/TooTallNate/Java-WebSocket
-
 Besides, the reader will learn to use the Webserver included in the Busybox distro.
 
     root@(none):~# start-stop-daemon -K -n httpd
@@ -79,6 +73,13 @@ An example when the httpd is pretty busy:
      1551  1197 root     S     178m 300%  16% /home/root/lejos/ejre1.7.0_55/bin/java
      1735     1 root     R     2880   5%  11% httpd -v -h /home/lejos/www/ 
 
+https://jcp.org/en/jsr/detail?id=356
+
+https://tools.ietf.org/html/rfc6455
+
+https://github.com/TooTallNate/Java-WebSocket
+
+https://github.com/NanoHttpd/nanohttpd
 
 ## Chapter 9: Communications
 
