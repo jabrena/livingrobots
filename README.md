@@ -90,11 +90,9 @@ It is very important to ensure that your robot operates in a secure environment.
 
 ![ScreenShot](https://raw.githubusercontent.com/jabrena/livingrobots/master/chapter15/docs/Tachikoma.png)
 
-https://www.youtube.com/watch?v=wRSYYPhqaKg
+In this chapter you will learn some concepts about security for Unix. Remember that your EV3 Brick run over a Busybox distro.
 
-https://www.youtube.com/watch?v=ufuUr2F5FkU
-
-https://www.youtube.com/watch?v=Q8uwwGtfm6U
+The examples included in this chapter are:
 
     Example: Discover ports opened in your EV3 Brick
     Example: Hack your SSH root account using Brute force
@@ -102,6 +100,11 @@ https://www.youtube.com/watch?v=Q8uwwGtfm6U
     Example: A mini example about a DOS Attack to the service httpd included Busybox
     Example: Shell scripts to remove some innecesary processes
 
+https://www.youtube.com/watch?v=wRSYYPhqaKg
+
+https://www.youtube.com/watch?v=ufuUr2F5FkU
+
+https://www.youtube.com/watch?v=Q8uwwGtfm6U
 
 http://freeware.the-meiers.org/
 
