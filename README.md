@@ -58,11 +58,11 @@ Pending
 
 ## Chapter 8: Web interfaces
 
-In this Chapter, the reader will learn to develop Web UI for EV3. The user will learn to use Websockets, RFC 6455 & JSR 356.
+In this Chapter, the reader will learn many stuff about Web Servers and  Web interfaces for robots with EV3 Brick.
 
-![ScreenShot](https://raw.githubusercontent.com/jabrena/livingrobots/master/chapter8/docs/remoteControl.jpg)
+### Web Servers
 
-Besides, the reader will learn to use the Webserver included in the Busybox distro.
+In this section, user will learn the different among httpd and other developments in Java to run a Web Server as NanoWeb server.
 
     root@(none):~# start-stop-daemon -K -n httpd
     stopped httpd (pid 1823)
@@ -76,6 +76,29 @@ An example when the httpd is pretty busy:
       PID  PPID USER     STAT   VSZ %MEM %CPU COMMAND
      1551  1197 root     S     178m 300%  16% /home/root/lejos/ejre1.7.0_55/bin/java
      1735     1 root     R     2880   5%  11% httpd -v -h /home/lejos/www/ 
+
+Nano Web server running on EV3 and suffering a DOS Attack:
+
+   Mem: 59800K used, 1060K free, 0K shrd, 48K buff, 4288K cached
+   CPU:  23% usr  26% sys   0% nic   0% idle  23% io   9% irq  17% sirq
+   Load average: 3.60 1.78 0.77 1/373 2030
+     PID  PPID USER     STAT   VSZ %MEM %CPU COMMAND
+    1577  1538 root     S     266m 447%  43% /home/root/lejos/ejre1.7.0_55/bin/java -classpath /ho
+        4     2 root     SW       0   0%  11% [events/0]
+      430     2 root     DW       0   0%   8% [mmcqd]
+     1538  1184 root     S     179m 301%   5% /home/root/lejos/ejre1.7.0_55/bin/java -classpath /ho
+      180     2 root     DW       0   0%   4% [kswapd0]
+     1594  1567 root     R     3072   5%   2% top 
+
+### Web Interfaces
+
+In this section, user will learn basic stuff about Modern web development.
+
+### Websockets
+
+In this section, user will learn to develop a distributed application using Websockets technology.
+
+![ScreenShot](https://raw.githubusercontent.com/jabrena/livingrobots/master/chapter8/docs/remoteControl.jpg)
 
 https://jcp.org/en/jsr/detail?id=356
 
