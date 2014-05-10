@@ -8,6 +8,8 @@ http://juanantonio.info/lejos-ebook/
 
     2014/05/04: First commit
 
+## Chapter 0:
+
 ## Chapter 1: Introduction
 
 Pending
@@ -52,7 +54,7 @@ Pending
 
 Pending
 
-## Chapter 8: Web UI for EV3
+## Chapter 8: Web interfaces
 
 In this Chapter, the reader will learn to develop Web UI for EV3. The user will learn to use Websockets, RFC 6455 & JSR 356.
 
