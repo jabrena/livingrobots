@@ -139,8 +139,12 @@ http://en.wikipedia.org/wiki/Syslog
 
 http://www.ietf.org/rfc/rfc3164.txt
 
-http://stackoverflow.com/questions/16980779/java-program-for-ddos-attack
-
+    Mem: 49048K used, 11812K free, 0K shrd, 516K buff, 25556K cached
+    CPU:   8% usr  35% sys   0% nic   0% idle   0% io  15% irq  39% sirq
+    Load average: 11.89 12.35 10.50 17/101 9146
+      PID  PPID USER     STAT   VSZ %MEM %CPU COMMAND
+     1551  1197 root     S     178m 300%  16% /home/root/lejos/ejre1.7.0_55/bin/java
+     1735     1 root     R     2880   5%  11% httpd -v -h /home/lejos/www/ 
 
 
 ## Appendices
