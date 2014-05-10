@@ -10,6 +10,8 @@ http://juanantonio.info/lejos-ebook/
 
 ## Chapter 0:
 
+Downloads: https://github.com/jabrena/livingrobots/raw/master/chapter0/docs/LRWE_Chapter0.pdf
+
 ## Chapter 1: Introduction
 
 Pending
