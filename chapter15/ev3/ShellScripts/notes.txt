@@ -2,3 +2,7 @@ It is necessary to copy this Script to /etc/init.d
 Later, create a Symbolyc link to /etc/rc5.d
 ln -s /etc/init.d/jab-utils.sh /etc/rc5.d/S90jab-utils
 reboot
+
+
+To update the script:
+scp jab-utils.sh root@10.0.1.1:/etc/init.d/
