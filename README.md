@@ -79,10 +79,10 @@ An example when the httpd is pretty busy:
 
 Nano Web server running on EV3 and suffering a DOS Attack:
 
-   Mem: 59800K used, 1060K free, 0K shrd, 48K buff, 4288K cached
-   CPU:  23% usr  26% sys   0% nic   0% idle  23% io   9% irq  17% sirq
-   Load average: 3.60 1.78 0.77 1/373 2030
-     PID  PPID USER     STAT   VSZ %MEM %CPU COMMAND
+    Mem: 59800K used, 1060K free, 0K shrd, 48K buff, 4288K cached
+    CPU:  23% usr  26% sys   0% nic   0% idle  23% io   9% irq  17% sirq
+    Load average: 3.60 1.78 0.77 1/373 2030
+    PID  PPID USER     STAT   VSZ %MEM %CPU COMMAND
     1577  1538 root     S     266m 447%  43% /home/root/lejos/ejre1.7.0_55/bin/java -classpath /ho
         4     2 root     SW       0   0%  11% [events/0]
       430     2 root     DW       0   0%   8% [mmcqd]
