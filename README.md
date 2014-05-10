@@ -89,6 +89,8 @@ https://www.youtube.com/watch?v=Q8uwwGtfm6U
     Example: Discover ports opened in your EV3 Brick
     Example: Hack your SSH root account using Brute force
     Example: Read /var/volatile/log/ to discover ssh attacks
+    Example: A mini example about a DOS Attack to the service httpd included Busybox
+
 
     syslogd -l 6
 
@@ -115,6 +117,7 @@ https://www.youtube.com/watch?v=Q8uwwGtfm6U
         cd /var/volatile/log/
         cat messages
         scp lejos@10.0.1.1:/home/lejos/messages.txt /Users/jabrena/
+        scp /Users/jabrena/Documents/index.htm lejos@10.0.1.1:/home/lejos/www/
 
 http://freeware.the-meiers.org/
 
