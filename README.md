@@ -115,9 +115,7 @@ In this section, user will learn to develop a distributed application using Webs
 
 ### References
 
-https://jcp.org/en/jsr/detail?id=356
-
-https://tools.ietf.org/html/rfc6455
+http://git.busybox.net/busybox/tree/networking/httpd.c
 
 https://github.com/TooTallNate/Java-WebSocket
 
