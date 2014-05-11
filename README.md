@@ -123,7 +123,7 @@ https://github.com/NanoHttpd/nanohttpd
 
 Pending
 
-### ServerSockets
+### Http
 
 Pending
 
