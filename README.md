@@ -16,6 +16,10 @@ Downloads: https://github.com/jabrena/livingrobots/raw/master/chapter0/docs/LRWE
 
 ### Lego Mindstorms
 
+#### History
+
+#### Ecosystem
+
 #### LDD
 
 In this section, the user will learn about CAD and the usage in robotics.
@@ -24,9 +28,11 @@ In this section, the user will learn about CAD and the usage in robotics.
 
 ### LeJOS Project
 
-https://www.youtube.com/watch?v=kN50ENE_HUU
+#### History
 
-http://en.wikipedia.org/wiki/Tachikoma
+#### API
+
+### Alternatives
 
 ## Chapter 2: Fundamentals of Robotics
 
