@@ -14,7 +14,15 @@ Downloads: https://github.com/jabrena/livingrobots/raw/master/chapter0/docs/LRWE
 
 ## Chapter 1: Introduction
 
-Pending
+### Lego Mindstorms
+
+#### LDD
+
+In this section, the user will learn about CAD and the usage in robotics.
+
+![ScreenShot](https://raw.githubusercontent.com/jabrena/livingrobots/master/LDD/Base1/Base1_5.png)
+
+### LeJOS Project
 
 https://www.youtube.com/watch?v=kN50ENE_HUU
 
