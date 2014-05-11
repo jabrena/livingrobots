@@ -149,7 +149,15 @@ http://en.wikipedia.org/wiki/Syslog
 http://www.ietf.org/rfc/rfc3164.txt
 
 
-## Appendices
+## Annexes
+
+## Annex 1: Getting started with LeJOS
+
+Pending. 
+
+Alternative: http://sourceforge.net/p/lejos/wiki/Getting%20started%20with%20leJOS%20EV3/
+
+## Annex 2: Busybox
 
     lejos@(none):~$ nc -l -p 10000
     nc: bind: Address already in use
