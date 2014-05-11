@@ -18,7 +18,7 @@ Downloads: https://github.com/jabrena/livingrobots/raw/master/chapter0/docs/LRWE
 
 ### Lego Mindstorms
 
-![ScreenShot](https://raw.githubusercontent.com/jabrena/livingrobots/master/LDD/Base1/Base1_5.png)
+![ScreenShot](https://raw.githubusercontent.com/jabrena/livingrobots/master/LDD/Base1/Base1_6.png)
 
 ### LeJOS Project
 
