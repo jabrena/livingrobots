@@ -125,7 +125,7 @@ https://github.com/NanoHttpd/nanohttpd
 
 ## Chapter 9: Communications
 
-This chapter covers the following technologies: Websockets, Http, RMI, I2C.
+This chapter covers the following technologies: Websockets, Http, RMI, D-Bus & I2C.
 
 ## Chapter 15: Hacking robots
 
@@ -152,12 +152,6 @@ The examples included in this chapter are:
 
 ### References
 
-https://www.youtube.com/watch?v=wRSYYPhqaKg
-
-https://www.youtube.com/watch?v=ufuUr2F5FkU
-
-https://www.youtube.com/watch?v=Q8uwwGtfm6U
-
 http://freeware.the-meiers.org/
 
 http://www.openwall.com/john/
@@ -167,11 +161,6 @@ http://www.jcraft.com/jsch/
 https://www.thc.org/thc-hydra/
 
 http://nmap.org/
-
-http://en.wikipedia.org/wiki/Syslog
-
-http://www.ietf.org/rfc/rfc3164.txt
-
 
 ## Annexes
 
