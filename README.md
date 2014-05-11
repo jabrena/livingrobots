@@ -193,8 +193,6 @@ http://www.ietf.org/rfc/rfc3164.txt
 
 ## Annex 1: Getting started with LeJOS
 
-Pending. 
-
 ### References
 
 http://sourceforge.net/p/lejos/wiki/Getting%20started%20with%20leJOS%20EV3/
