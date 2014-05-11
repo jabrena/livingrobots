@@ -30,6 +30,10 @@ In this chapter, we will cover the most popular sensors compatible with EV3 Bric
 
 ![ScreenShot](https://raw.githubusercontent.com/jabrena/livingrobots/master/chapter3/ev3/GyroSensor/models/Magic8Ball.png)
 
+### Examples
+
+Examples included in the chapter:
+
     Example: IRSensor to detect a Beacon
     Example: The magic 8 ball using a EV3GyroSensor
 
@@ -124,6 +128,8 @@ It is very important to ensure that your robot operates in a secure environment.
 ![ScreenShot](https://raw.githubusercontent.com/jabrena/livingrobots/master/chapter15/docs/Tachikoma.png)
 
 In this chapter you will learn some concepts about security for Unix. Remember that your EV3 Brick run over a Busybox distro.
+
+### Examples
 
 The examples included in this chapter are:
 
