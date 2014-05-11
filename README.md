@@ -199,6 +199,8 @@ http://sourceforge.net/p/lejos/wiki/Getting%20started%20with%20leJOS%20EV3/
 
 ## Annex 2: Busybox
 
-In this Annex, the user will learn basic concepts about the usage of a Busybox distro.
+LeJOS project uses Busybox as the way to offer a Linux experience. It was specifically created for embedded operating systems with very limited resources. BusyBox provides several stripped-down Unix tools in a single executable file. The authors dubbed it "The Swiss Army Knife of Embedded Linux", as the single executable replaces basic functions of more than 300 common commands
+
+In this Annex, the reader will learn how to use Busybox in a EV3 environment.
 
 Download preview: https://github.com/jabrena/livingrobots/raw/master/annex2/docs/LRWE_Annex2_Busybox.pdf 
