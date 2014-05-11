@@ -36,14 +36,20 @@ Pending
 
 In this chapter, we will cover the most popular sensors compatible with EV3 Brick.
 
-![ScreenShot](https://raw.githubusercontent.com/jabrena/livingrobots/master/chapter3/ev3/GyroSensor/models/Magic8Ball.png)
+### Exteroceptors sensors
 
-### Examples
+Exteroceptors are sensors that measure the positional or force-type interaction of the robot with its environment. 
 
-Examples included in the chapter:
+### Exteroceptors examples
+
+Examples about Exteroceptors sensors:
 
     Example: IRSensor to detect a Beacon
     Example: The magic 8 ball using a EV3GyroSensor
+
+### Proprioceptors sensors
+
+Proprioception in robotics means sensing the internal state of the robot or a part of it . For example the posture of a mechanical manipulator, leg or other jointed mechanism or the battery level.
 
 ## Chapter 4: Actuators
 
