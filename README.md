@@ -42,8 +42,6 @@ Exteroceptors are sensors that measure the positional or force-type interaction 
 
 ### Exteroceptors examples
 
-Examples about Exteroceptors sensors:
-
     Example: IRSensor to detect a Beacon
     Example: The magic 8 ball using a EV3GyroSensor
 
