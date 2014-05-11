@@ -137,7 +137,7 @@ The examples included in this chapter are:
     Example: Hack your SSH root account using Brute force
     Example: Read /var/volatile/log/ to discover ssh attacks
     Example: A mini example about a DOS Attack to the service httpd included Busybox
-    Example: Shell scripts to remove some innecesary processes
+    Example: Shell scripts to remove some no necessary processes
 
 ### References
 
