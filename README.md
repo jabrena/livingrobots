@@ -8,8 +8,6 @@ http://juanantonio.info/lejos-ebook/
 
 Help the project with a donation or book your copy. Further information here: http://juanantonio.info/lejos-ebook/
 
-## Project status ##
-
     2014/05/04: First commit
 
 ## Chapter 0:
