@@ -174,4 +174,6 @@ LeJOS project uses Busybox as the way to offer a Linux experience. It was specif
 
 In this Annex, the reader will learn how to use Busybox in a EV3 environment.
 
-Download preview: https://github.com/jabrena/livingrobots/raw/master/annex2/docs/LRWE_Annex2_Busybox.pdf 
+Download preview: https://github.com/jabrena/livingrobots/raw/master/annex2/docs/LRWE_Annex2_Busybox_Preview.pdf
+Exercises: https://github.com/jabrena/livingrobots/raw/master/annex2/docs/LRWE_Annex2_Busybox_Exercises.pdf
+
