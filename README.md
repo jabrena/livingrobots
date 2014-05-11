@@ -183,14 +183,6 @@ http://sourceforge.net/p/lejos/wiki/Getting%20started%20with%20leJOS%20EV3/
 
 ## Annex 2: Busybox
 
-    lejos@(none):~$ nc -l -p 10000
-    nc: bind: Address already in use
-    lejos@(none):~$ nc localhost 10000
-    asdf
-    asdf
-    hello
+In this Annex, the user will learn basic concepts about the usage of a Busybox distro.
 
-    root@(none):~# nc -l -p 10000
-    asdf
-    asdf
-    hello
+Download preview: https://github.com/jabrena/livingrobots/raw/master/annex2/docs/LRWE_Annex2_Busybox.pdf 
