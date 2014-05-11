@@ -139,6 +139,15 @@ The examples included in this chapter are:
     Example: A mini example about a DOS Attack to the service httpd included Busybox
     Example: Shell scripts to remove some no necessary processes
 
+### Concepts
+
+    What is a Zombie robot?
+
+### Practices
+
+    Exercise 1: How to add a program in the startup
+    Exercise 2: Create a Virus for EV3 brick
+
 ### References
 
 https://www.youtube.com/watch?v=wRSYYPhqaKg
