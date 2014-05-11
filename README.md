@@ -32,7 +32,7 @@ In this section, the user will learn about CAD and the usage in robotics.
 
 #### API
 
-### Alternatives
+### Alternatives to Lego Mindstorms
 
 ## Chapter 2: Fundamentals of Robotics
 
