@@ -34,7 +34,7 @@ Pending
 
 ## Chapter 3: Sensors
 
-In this chapter, we will cover the most popular sensors compatible with EV3 Brick.
+In this chapter, we will cover the most popular and useful sensors compatible with EV3 Brick.
 
 ### Exteroceptors sensors
 
