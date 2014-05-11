@@ -40,8 +40,6 @@ In this chapter, we will cover the most popular sensors compatible with EV3 Bric
 
 Exteroceptors are sensors that measure the positional or force-type interaction of the robot with its environment. 
 
-### Exteroceptors examples
-
     Example: IRSensor to detect a Beacon
     Example: The magic 8 ball using a EV3GyroSensor
 
