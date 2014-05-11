@@ -125,21 +125,7 @@ https://github.com/NanoHttpd/nanohttpd
 
 ## Chapter 9: Communications
 
-### Websockets
-
-Pending
-
-### Http
-
-Pending
-
-### RMI
-
-Pending
-
-### I2C
-
-Pending
+This chapter covers the following technologies: Websockets, Http, RMI, I2C.
 
 ## Chapter 15: Hacking robots
 
