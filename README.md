@@ -45,7 +45,10 @@ In this chapter, user will learn basic concepts about Local & Global navigation
 
 ![ScreenShot](https://raw.githubusercontent.com/jabrena/livingrobots/master/chapter8/docs/mapping.png)
 
+### References
+
 http://www.cs.ox.ac.uk/people/michael.wooldridge/teaching/robotics/lect05.pdf
+
 https://github.com/edgemaster/robotics/tree/master/lejos/tut5Probability/src/navigation
 
 ## Chapter 6: Cognition
@@ -100,6 +103,8 @@ In this section, user will learn to develop a distributed application using Webs
 
 ![ScreenShot](https://raw.githubusercontent.com/jabrena/livingrobots/master/chapter8/docs/remoteControl.jpg)
 
+### References
+
 https://jcp.org/en/jsr/detail?id=356
 
 https://tools.ietf.org/html/rfc6455
@@ -128,6 +133,8 @@ The examples included in this chapter are:
     Example: A mini example about a DOS Attack to the service httpd included Busybox
     Example: Shell scripts to remove some innecesary processes
 
+### References
+
 https://www.youtube.com/watch?v=wRSYYPhqaKg
 
 https://www.youtube.com/watch?v=ufuUr2F5FkU
@@ -155,7 +162,9 @@ http://www.ietf.org/rfc/rfc3164.txt
 
 Pending. 
 
-Alternative: http://sourceforge.net/p/lejos/wiki/Getting%20started%20with%20leJOS%20EV3/
+### References
+
+http://sourceforge.net/p/lejos/wiki/Getting%20started%20with%20leJOS%20EV3/
 
 ## Annex 2: Busybox
 
