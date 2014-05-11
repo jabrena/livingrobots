@@ -4,16 +4,6 @@ Living Robots
 Living Robots, is the Github repository for the new Ebook about LeJOS "Living Robots with EV3".
 http://juanantonio.info/lejos-ebook/
 
-<script src="https://www.paypalobjects.com/js/external/paypal-button.min.js?merchant=LWPKQLUQX2JQC" 
-    data-button="donate" 
-    data-name="Research on LeJOS" 
-    data-amount="5.00" 
-    data-currency="EUR" 
-    data-shipping="0" 
-    data-tax="0" 
-    data-callback="http:://www.juanantonio.info/"
-></script>
-
 ## Project status ##
 
     2014/05/04: First commit
