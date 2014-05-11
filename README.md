@@ -119,6 +119,20 @@ https://github.com/NanoHttpd/nanohttpd
 
 ## Chapter 9: Communications
 
+### Websockets
+
+Pending
+
+### ServerSockets
+
+Pending
+
+### RMI
+
+Pending
+
+### I2C
+
 Pending
 
 ## Chapter 15: Hacking robots
