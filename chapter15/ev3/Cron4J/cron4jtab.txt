@@ -1,0 +1,5 @@
+0 5 * * * sol.exe
+0,30 * * * * OUT:C:\ping.txt ping 10.9.43.55
+0,46 * * * * "OUT:C:\My Folder With Spaces\ping.txt" ping 10.9.43.55
+0 3 * * * ENV:JAVA_HOME=C:\jdks\1.4.2_15 DIR:C:\myproject OUT:C:\myproject\build.log C:\myproject\build.bat "Nightly Build"
+0 1 * * * java:test.TestClass#testMethod "Iron Maiden" "Megadeth" "Black Sabbath" "Led Zeppelin" "Blind Guardian"

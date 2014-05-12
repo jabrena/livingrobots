@@ -142,6 +142,7 @@ The examples included in this chapter are:
     Example: Read /var/volatile/log/ to discover ssh attacks
     Example: A mini example about a DOS Attack to the service httpd included Busybox
     Example: Shell scripts to remove some no necessary processes
+    Example: Scheduling a task with Cron4J
 
 ### Exercises
 
