@@ -13,8 +13,9 @@ public class HelloWorld {
 		// Starts the scheduler.
 		scheduler.start();
 		// Stays alive for five minutes.
+		
 		try {
-			Thread.sleep(5L * 60L * 1000L);
+			Thread.sleep(24L * 60L * 60L * 1000L);
 		} catch (InterruptedException e) {
 			;
 		}
