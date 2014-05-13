@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<project name="NTPClient" basedir="." default="copy">
+
+    <property file="local.properties" />
+	<property file="build.properties" />
+	<property file="credentials.properties" />
+
+    <target name="clean" description="delete old files">
+        <delete dir="${build.dir}"/>
+        <!-- <delete dir="${dist.dir}"/> -->
+    </target>
+
+    <path id="libraries.path">    
+        <fileset dir="${lib.dir}">
+            <include name="*.jar"/>
+        </fileset>
+    </path>
+	
+    <target name="compile" description="build class files" depends="clean">
+        <mkdir dir="${build.dir}"/>
+        <javac srcdir="${source.dir}" destdir="${build.dir}" includeantruntime="false" encoding="UTF-8">
+            <classpath refid="libraries.path"/>
+        </javac>
+    	<copy todir="${build.dir}">
+    	    <fileset dir="${source.dir}"/>
+		</copy>
+    </target>
+
+    <target name="jar" depends="compile">
+        <mkdir dir="${dist.dir}"/>
+        <jar destfile="${dist.dir}/${jar.name}" basedir="${build.dir}">
+            <manifest>
+                <attribute name="Main-Class" value="${main.class}"/>
+                <attribute name="Class-Path" value="${lejos.home}/lib/ev3classes.jar ${lejos.home}/libjna/usr/share/java/jna.jar"/>
+            	
+            	<attribute name="Codebase" value="http://juanantonio.info/lejos-ebook/"/>
+            	<attribute name="Built-By" value="${user.name}"/>
+            </manifest>
+        </jar>  
+    </target>
+
+    <target name="copy" depends="jar">
+    	<scp todir="${credentials}@${ev3.host}:${lejos.user.program.dir}" trust="true">
+    	    <fileset file="${dist.dir}/${jar.name}"/>
+    	</scp>
+    </target>
+</project>

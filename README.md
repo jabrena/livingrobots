@@ -143,6 +143,7 @@ The examples included in this chapter are:
     Example: A mini example about a DOS Attack to the service httpd included Busybox
     Example: Shell scripts to remove some no necessary processes
     Example: Scheduling a task with Cron4J
+    Example: NTP Client (Using classes from project EV3Menu)
 
 ### Exercises
 
