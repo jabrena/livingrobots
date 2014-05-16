@@ -82,7 +82,14 @@ Arduino code:
       Serial.println("Sending...");
     }
     
+Output in Arduino:
 
+    4
+    Ready!
+    Reveving...A
+    Sending...
+    Sending...
+    
 
 ### Proprioceptors sensors
 
