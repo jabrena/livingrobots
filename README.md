@@ -98,8 +98,13 @@ Proprioception in robotics means sensing the internal state of the robot or a pa
 ### References
 
 http://en.wikipedia.org/wiki/I2C
+
 http://arduino.cc/en/Reference/Wire
+
 http://playground.arduino.cc/Main/WireLibraryDetailedReference
+
+https://github.com/DexterInd/EV3_Dexter_Industries_Sensors/blob/master/EV3_arduino/
+
 
 ## Chapter 4: Actuators
 
