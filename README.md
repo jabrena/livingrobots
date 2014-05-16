@@ -39,58 +39,6 @@ Exteroceptors are sensors that measure the positional or force-type interaction 
     Example: IRSensor to detect a Beacon
     Example: The magic 8 ball using a EV3GyroSensor
 
-#### Arduino
-
-I am trying to migrate this simple example from the LEGO environment to LeJOS.
-
-![ScreenShot](https://raw.githubusercontent.com/jabrena/livingrobots/master/chapter3/ev3/ArduinoLEGOTest/I2C.ev3.jpg)
-
-Arduino code:
-
-    #include <Wire.h>
-    
-    #define SLAVE_ADDRESS 0x04
-    void setup() 
-    {
-        Serial.begin(9600);         // start serial for output
-        Wire.begin(SLAVE_ADDRESS);
-        Wire.onReceive(receiveData);
-        Wire.onRequest(sendData);
-        Serial.println(SLAVE_ADDRESS);
-        Serial.println("Ready!");
-    }
-    int val,flag=0,index=0;
-    uint8_t c[]="DEXTERIN";
-    char buf[8];
-    
-    void loop(){
-    }
-    
-    void receiveData(int byteCount){
-        while(Wire.available()>0){
-          val=Wire.read();
-          
-          Serial.print("Reveving...");
-          Serial.println((char)val);
-          flag=1;
-        }
-    }
-    
-    // callback for sending data
-    void sendData(){
-      Wire.write(c,8);
-      Serial.println("Sending...");
-    }
-    
-Output in Arduino:
-
-    4
-    Ready!
-    Reveving...A
-    Sending...
-    Sending...
-    
-
 ### Proprioceptors sensors
 
 Proprioception in robotics means sensing the internal state of the robot or a part of it . For example the posture of a mechanical manipulator, leg or other jointed mechanism or the battery level.
