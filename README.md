@@ -54,7 +54,11 @@ http://www.ohio.edu/people/williar4/html/PDF/IntroRob.pdf
 
 http://www-ee.ccny.cuny.edu/www/web/jxiao/I5501-introduction.pdf
 
+http://robotics.usc.edu/~aatrash/cs445/lec01.pdf
+
 http://www.cs.cmu.edu/~me/811/
+
+http://er.jsc.nasa.gov/seh/robot_pdf_files/robotics_in_the_classroom.pdf
 
 ## Chapter 3: Sensors
 
@@ -143,7 +147,27 @@ http://www.asl.ethz.ch/research/asl/cogniron/ShrihariVasudevan_CWSHRI08.pdf
 
 ## Chapter 6: Cognition
 
+### Reactive Control
+
 Pending
+
+### Behavior-Based Control
+
+http://sourceforge.net/p/lejos/ev3/ci/master/tree/EV3BumperCar/src/EV3BumperCar.java
+
+### Deliberative Control
+
+#### FSM
+
+The behaviours are modelled with a HFSM using Apache Commons SCXML.
+
+https://github.com/jabrena/liverobots
+
+### References
+
+http://robotics.usc.edu/~aatrash/cs445/lec12.pdf
+
+http://robotics.usc.edu/~aatrash/cs445/lec13.pdf
 
 ## Chapter 7: Computer vision
 
