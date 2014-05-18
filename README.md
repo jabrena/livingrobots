@@ -18,11 +18,15 @@ Downloads: https://github.com/jabrena/livingrobots/raw/master/chapter0/docs/LRWE
 
 ### Lego Mindstorms
 
-![ScreenShot](https://raw.githubusercontent.com/jabrena/livingrobots/master/LDD/Base1/Base1_6.png)
-
 ### LeJOS Project
 
 ### Alternatives to Lego Mindstorms
+
+### Living Robots
+
+#### Brity V2
+
+![ScreenShot](https://raw.githubusercontent.com/jabrena/livingrobots/master/LDD/Base1/Base1_5.png)
 
 ## Chapter 2: Fundamentals of Robotics
 
