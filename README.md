@@ -38,7 +38,7 @@ Exteroceptors are sensors that measure the positional or force-type interaction 
 
 #### Arduino
 
-Arduino is a single-board microcontroller used in this ebook as a Bridge to connect with complex sensors as RPILIDAR.
+Arduino is a single-board microcontroller used in this ebook as a Bridge to connect complex sensors as RPILIDAR with I2C or Bluetooth.
 
 #### RPLIDAR
 
@@ -64,14 +64,17 @@ Proprioception in robotics means sensing the internal state of the robot or a pa
 
 http://en.wikipedia.org/wiki/Arduino
 
-http://www.robopeak.com/blog/?p=278
+http://arduino.cc/en/Main/ArduinoProtoShield
+
+http://www.dexterindustries.com/NXTBreadBoard.html
 
 http://rplidar.robopeak.com/index.html
 
-
 ## Chapter 4: Actuators
 
-Pending
+### Examples
+
+    Example: Simple bumper car
 
 ## Chapter 5: Navigation
 
@@ -99,7 +102,7 @@ http://ijcai.org/papers07/Papers/IJCAI07-350.pdf
 
 https://github.com/edgemaster/robotics/tree/master/lejos/tut5Probability/src/navigation
 
-#Exercises
+### Exercises
 
 http://ais.informatik.uni-freiburg.de/teaching/ss11/robotics/exercises/sheet07.pdf
 
