@@ -30,6 +30,6 @@ void receiveData(int byteCount){
 // callback for sending data
 void sendData(){
   Wire.write(c,8);
-  Serial.println("Sending...");
+  //Serial.println("Sending...");
 }
 

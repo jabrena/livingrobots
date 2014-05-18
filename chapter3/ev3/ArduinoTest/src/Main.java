@@ -1,36 +1,28 @@
 
-import lejos.hardware.port.I2CPort;
 import lejos.hardware.port.SensorPort;
 import lejos.hardware.sensor.I2CSensor;
 import lejos.hardware.sensor.SensorConstants;
 
 public class Main {
 
-	static int I2CSlaveAddress = 4; // 7bit addressing.  It would be 0xA4 in 8bit
+	static int I2CSlaveAddress = 4; // TODO Doubt: 7bit addressing.  It would be 0xA4 in 8bit
 	static final byte REG_ARDUINO = (byte) 0x20;
 	static byte[] buffReadResponse = new byte[8];
 	
 	public static void main(String[] args) throws InterruptedException {
 		
 		System.out.println("Arduino Connection Test");
-
-		for(int i = 0; i<= 127; i++){
-			
-		}
 		
 		I2CSensor Arduino = new I2CSensor(SensorPort.S1,
 				I2CSlaveAddress, 
 				SensorConstants.TYPE_LOWSPEED);
-				//SensorConstants.TYPE_LOWSPEED_9V);
-				//SensorConstants.TYPE_HISPEED);
-
 		
 		Thread.sleep(500);
 
 		//Writing
-		//Arduino.sendData(REG_ARDUINO, buffReadResponse,1);
+		Arduino.sendData(REG_ARDUINO, buffReadResponse,1);
 		
-		byte value = 1;
+		byte value = 65;
 		Arduino.sendData(REG_ARDUINO, value);
 		
 		System.out.println(buffReadResponse[0]);
@@ -56,7 +48,4 @@ public class Main {
 		
 		System.exit(1);
 	}
-	
-
-
 }
