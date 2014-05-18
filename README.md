@@ -36,24 +36,32 @@ In this chapter, we will cover the most popular and useful sensors compatible wi
 
 Exteroceptors are sensors that measure the positional or force-type interaction of the robot with its environment. 
 
-    Example: IRSensor to detect a Beacon
-    Example: The magic 8 ball using a EV3GyroSensor
+#### Arduino
+
+Arduino is a single-board microcontroller used in this ebook as a Bridge to connect with complex sensors as RPILIDAR.
+
+#### RPLIDAR
+
+RPLIDAR is a low cost 360 degree 2D laser scanner (LIDAR) solution developed by RoboPeak. The system can perform 360 degree scan within 6 meter range. The produced 2D point cloud data can be used in mapping, localization and object/environment modeling.
 
 ### Proprioceptors sensors
 
 Proprioception in robotics means sensing the internal state of the robot or a part of it . For example the posture of a mechanical manipulator, leg or other jointed mechanism or the battery level.
 
+### Examples
+
+    Example: IRSensor to detect a Beacon
+    Example: The magic 8 ball using a EV3GyroSensor
+    Example: How to integrate Arduino with EV3
+
 ### References
 
-http://en.wikipedia.org/wiki/I2C
+http://en.wikipedia.org/wiki/Arduino
 
-http://arduino.cc/en/Reference/Wire
+http://www.robopeak.com/blog/?p=278
 
-http://playground.arduino.cc/Main/WireLibraryDetailedReference
+http://rplidar.robopeak.com/index.html
 
-https://github.com/DexterInd/EV3_Dexter_Industries_Sensors/blob/master/EV3_arduino/
-
-http://www.voltaicsystems.com/solar-arduino-guide.shtml
 
 ## Chapter 4: Actuators
 
@@ -159,6 +167,16 @@ https://github.com/NanoHttpd/nanohttpd
 ## Chapter 9: Communications
 
 This chapter covers the following technologies: Websockets, Http, RMI, D-Bus & I2C.
+
+### References
+
+http://en.wikipedia.org/wiki/I2C
+
+http://arduino.cc/en/Reference/Wire
+
+http://playground.arduino.cc/Main/WireLibraryDetailedReference
+
+https://github.com/DexterInd/EV3_Dexter_Industries_Sensors/blob/master/EV3_arduino/
 
 ## Chapter 15: Hacking robots
 
