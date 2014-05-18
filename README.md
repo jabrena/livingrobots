@@ -29,10 +29,10 @@ In the whole ebook, we are going to use the same model, Brity V2.
 
 Specifications:
 
-    1x EV3 Brick + EV3 Rechargable battery + USB Hub + Netgear WNA 1100
+    1x Lego Mindstorms EV3 Brick + EV3 Rechargable battery + USB Hub + Netgear WNA 1100
     1x Arduino One + Arduino Proto shield + Dexter breadboard adapter
     1x Robopeak RPLIDAR
-    1x Mobile phone + Chrome Web browser
+    1x Smartphone + Chrome Web browser
 
 ![ScreenShot](https://raw.githubusercontent.com/jabrena/livingrobots/master/LDD/Base1/Base1_5.png)
 
