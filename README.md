@@ -25,11 +25,11 @@ Downloads: https://github.com/jabrena/livingrobots/raw/master/chapter0/docs/LRWE
 
 #### Brity V2
 
-In the whole ebook, we are going to use the same model, Brity V2.
-
 Specifications:
 
     1x Lego Mindstorms EV3 Brick + EV3 Rechargable battery + USB Hub + Netgear WNA 1100
+    1x Hitechnic Compass sensor
+    1x EV3 IR Sensor
     1x Arduino One + Arduino Proto shield + Dexter breadboard adapter
     1x Robopeak RPLIDAR
     1x Smartphone + Chrome Web browser
