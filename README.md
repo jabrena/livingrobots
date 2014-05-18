@@ -37,8 +37,6 @@ Specifications:
 
 ![ScreenShot](https://raw.githubusercontent.com/jabrena/livingrobots/master/LDD/Base1/Base1_5.png)
 
-    Note: This LDD model was not updated. 
-
 ## Chapter 2: Fundamentals of Robotics
 
 Pending
