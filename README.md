@@ -53,6 +53,7 @@ http://playground.arduino.cc/Main/WireLibraryDetailedReference
 
 https://github.com/DexterInd/EV3_Dexter_Industries_Sensors/blob/master/EV3_arduino/
 
+http://www.voltaicsystems.com/solar-arduino-guide.shtml
 
 ## Chapter 4: Actuators
 
@@ -70,7 +71,30 @@ In this chapter, user will learn basic concepts about Local & Global navigation
 
 http://www.cs.ox.ac.uk/people/michael.wooldridge/teaching/robotics/lect05.pdf
 
+http://cdn.intechopen.com/pdfs-wm/5368.pdf
+
+http://www.sci.brooklyn.cuny.edu/~parsons/courses/3415-fall-2011/papers/elfes.pdf
+
+http://www.cs.utexas.edu/~kuipers/slides/L13-occupancy-grids.pdf
+
+http://ais.informatik.uni-freiburg.de/teaching/ss11/robotics/slides/08-occupancy-mapping.ppt.pdf
+
+http://dai.fmph.uniba.sk/~petrovic/probrob/ch9.pdf
+
+http://ijcai.org/papers07/Papers/IJCAI07-350.pdf
+
 https://github.com/edgemaster/robotics/tree/master/lejos/tut5Probability/src/navigation
+
+#Exercises
+
+http://ais.informatik.uni-freiburg.de/teaching/ss11/robotics/exercises/sheet07.pdf
+
+http://www.ra.cs.uni-tuebingen.de/lehre/uebungen/ss13/robotik2/assignment07.pdf
+
+http://www.sci.brooklyn.cuny.edu/~parsons/courses/3415-fall-2011/projects/project6.pdf
+
+http://www.asl.ethz.ch/research/asl/cogniron/ShrihariVasudevan_CWSHRI08.pdf
+
 
 ## Chapter 6: Cognition
 
@@ -189,4 +213,5 @@ In this Annex, the reader will learn how to use Busybox in a EV3 environment.
 
 Download preview: https://github.com/jabrena/livingrobots/raw/master/annex2/docs/LRWE_Annex2_Busybox_Preview.pdf
 Exercises: https://github.com/jabrena/livingrobots/raw/master/annex2/docs/LRWE_Annex2_Busybox_Exercises.pdf
+
 
