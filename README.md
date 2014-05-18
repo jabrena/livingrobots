@@ -46,6 +46,10 @@ RPLIDAR is a low cost 360 degree 2D laser scanner (LIDAR) solution developed by 
 
 ![ScreenShot](https://github.com/jabrena/livingrobots/raw/master/chapter3/docs/RPLIDAR.png)
 
+##### Status
+
+At the moment, I can use the Sensor in my Arduino environment, but I have to develop a way to return an Array with values from LIDAR.
+
 ### Proprioceptors sensors
 
 Proprioception in robotics means sensing the internal state of the robot or a part of it . For example the posture of a mechanical manipulator, leg or other jointed mechanism or the battery level.
