@@ -2,11 +2,10 @@ Living Robots
 =============
  
 Living Robots, is the Github repository for the new Ebook about LeJOS "Living Robots with EV3".
-http://juanantonio.info/lejos-ebook/
 
 "Living Robots with EV3" is a ebook designed to learn about development of Robots with modern techniques and technologies. The book put the focus in the platform Lego Mindstorms EV3, Linux and the programming language Java. The ebook cover modern topics as "Internet of things" (IOT) and the integration with other technologies as Web, Raspberry PI & Arduino.
 
-Help the project with a donation or book your copy. Further information here: http://juanantonio.info/lejos-ebook/
+If you enjoyed the previous ebook (http://juanantonio.info/lejos-ebook/) then book your copy now: http://juanantonio.info/about.htm
 
     2014/05/04: First commit
 
@@ -39,7 +38,23 @@ Specifications:
 
 ## Chapter 2: Fundamentals of Robotics
 
+### Wheeled mobile robots
+
 Pending
+
+### References
+
+http://www.probabilistic-robotics.org/
+
+http://probabilistic-robotics.informatik.uni-freiburg.de/ppt/
+
+http://www.eecs.yorku.ca/course_archive/2011-12/W/4421/lectures.html
+
+http://www.ohio.edu/people/williar4/html/PDF/IntroRob.pdf
+
+http://www-ee.ccny.cuny.edu/www/web/jxiao/I5501-introduction.pdf
+
+http://www.cs.cmu.edu/~me/811/
 
 ## Chapter 3: Sensors
 
