@@ -153,7 +153,7 @@ Pending
 
 ### Behavior-Based Control
 
-http://sourceforge.net/p/lejos/ev3/ci/master/tree/EV3BumperCar/src/EV3BumperCar.java
+Example: http://sourceforge.net/p/lejos/ev3/ci/master/tree/EV3BumperCar/src/EV3BumperCar.java
 
 ### Deliberative Control
 
@@ -161,7 +161,7 @@ http://sourceforge.net/p/lejos/ev3/ci/master/tree/EV3BumperCar/src/EV3BumperCar.
 
 The behaviours are modelled with a HFSM using Apache Commons SCXML.
 
-https://github.com/jabrena/liverobots
+Examples: https://github.com/jabrena/liverobots
 
 ### References
 
