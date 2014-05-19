@@ -1,27 +1,26 @@
-import lejos.hardware.Button;
+
 import lejos.hardware.port.SensorPort;
 import lejos.hardware.sensor.I2CSensor;
 
 public class Main2 {
    static int I2CSlaveAddress = 8;
    static byte[] buffReadResponse = new byte[8];
+   static byte[] buffReadResponse2 = new byte[2];
+   
+   public static int convert(int n) {
+	   return Integer.valueOf(String.valueOf(n), 16);
+   }
    
    public static void main(String[] args) throws InterruptedException {    
       System.out.println("Arduino Connection Test2");
-      I2CSensor arduino = new I2CSensor(SensorPort.S1, I2CSlaveAddress);
+      I2CSensor arduino = new I2CSensor(SensorPort.S4, I2CSlaveAddress);
       
-      arduino.getData('A', buffReadResponse, buffReadResponse.length);
-      System.out.println(new String(buffReadResponse));
-      
-      /*
-      while (Button.ESCAPE.isUp()) {
-         int id = Button.waitForAnyPress();  
-         if (id == Button.ID_ENTER) {  
-            arduino.getData('A', buffReadResponse, buffReadResponse.length);
-            System.out.println(new String(buffReadResponse));
-         }
+      for(int i = 1; i <=255; i++){
+    	  arduino.getData(i, buffReadResponse2, buffReadResponse2.length);
+    	  int value = (buffReadResponse2[0] & 0xff);
+    	  System.out.println(i + " " + new String(String.valueOf(value)));
       }
-      */
+
       arduino.close();
    }
 }
