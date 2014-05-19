@@ -7,9 +7,6 @@ public class Main2 {
    static byte[] buffReadResponse = new byte[8];
    static byte[] buffReadResponse2 = new byte[2];
    
-   public static int convert(int n) {
-	   return Integer.valueOf(String.valueOf(n), 16);
-   }
    
    public static void main(String[] args) throws InterruptedException {    
       System.out.println("Arduino Connection Test2");
