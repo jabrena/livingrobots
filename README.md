@@ -94,27 +94,17 @@ Arduino is a single-board microcontroller used in this ebook as a Bridge to conn
 
 RPLIDAR is a low cost 360 degree 2D laser scanner (LIDAR) solution developed by RoboPeak. The system can perform 360 degree scan within 6 meter range. The produced 2D point cloud data can be used in mapping, localization and object/environment modeling.
 
-![ScreenShot](https://github.com/jabrena/livingrobots/raw/master/chapter3/docs/RPLIDAR.png)
+![ScreenShot](https://github.com/jabrena/livingrobots/raw/master/chapter3/docs/RPLIDAR_livingRoom.png)
 
-##### Status
+#### Ideas
 
-EV3 Brick is able to use RPLIDAR.
-
-Example 1:
-
-Using RPLIDAR in Brity V2:
-
-![ScreenShot](https://github.com/jabrena/livingrobots/raw/master/chapter3/docs/RPLIDAR_Test1.jpg)
-
-The info is viewed in a web object using the Busybox web server:
-
-![ScreenShot](https://github.com/jabrena/livingrobots/raw/master/chapter3/docs/RPLIDAR_WebViewer_Test1.jpg)
-
-http://192.168.0.101/radar.html
-
-##### Issues
-
-Improve the way to return info from LIDAR.
+http://www.cim.mcgill.ca/~junaed/ta_765.php
+http://www.fritz-hut.com/2013/01/31/particle-filter-implementation-in-player-stage/
+http://ade.sourceforge.net/
+http://www2.htw-dresden.de/~s64599/6.%20Semester/Robotics/workspace/Robotics/src/de/htwdd/robotics/localization/MonteCarloLocalization.java
+http://www.ikaros-project.org/articles/2008/gridmaps/
+https://github.com/danielzurawski/CleanDroid/tree/master/src/com/cleandroid
+https://github.com/lessthanoptimal/Bubo
 
 ### Proprioceptors sensors
 
