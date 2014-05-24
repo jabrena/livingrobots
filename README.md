@@ -86,17 +86,17 @@ In this chapter, we will cover the most popular and useful sensors compatible wi
 
 Exteroceptors are sensors that measure the positional or force-type interaction of the robot with its environment. 
 
-#### Arduino
-
-Arduino is a single-board microcontroller used in this ebook as a Bridge to connect complex sensors as RPILIDAR with I2C or Bluetooth.
-
 #### RPLIDAR
 
 RPLIDAR is a low cost 360 degree 2D laser scanner (LIDAR) solution developed by RoboPeak. The system can perform 360 degree scan within 6 meter range. The produced 2D point cloud data can be used in mapping, localization and object/environment modeling.
 
 ![ScreenShot](https://github.com/jabrena/livingrobots/raw/master/chapter3/docs/RPLIDAR_livingRoom.png)
 
-Testing the Polar chart from: http://www.amcharts.com/
+Generating onfly a JSON file to be used for a Polar Chart.
+
+Note: It is necessary to launch the webserver:
+
+    root@(none):~# httpd -v -h /home/lejos/www/
 
 ### Proprioceptors sensors
 
@@ -107,6 +107,8 @@ Proprioception in robotics means sensing the internal state of the robot or a pa
     Example: IRSensor to detect a Beacon
     Example: The magic 8 ball using a EV3GyroSensor
     Example: How to integrate Arduino with EV3
+    Example: How to use the sensor RPLIDAR
+    Example: How to generate JSON data to view LIDAR data
 
 ### References
 
