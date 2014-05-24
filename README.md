@@ -96,15 +96,7 @@ RPLIDAR is a low cost 360 degree 2D laser scanner (LIDAR) solution developed by 
 
 ![ScreenShot](https://github.com/jabrena/livingrobots/raw/master/chapter3/docs/RPLIDAR_livingRoom.png)
 
-#### Ideas
-
-http://www.cim.mcgill.ca/~junaed/ta_765.php
-http://www.fritz-hut.com/2013/01/31/particle-filter-implementation-in-player-stage/
-http://ade.sourceforge.net/
-http://www2.htw-dresden.de/~s64599/6.%20Semester/Robotics/workspace/Robotics/src/de/htwdd/robotics/localization/MonteCarloLocalization.java
-http://www.ikaros-project.org/articles/2008/gridmaps/
-https://github.com/danielzurawski/CleanDroid/tree/master/src/com/cleandroid
-https://github.com/lessthanoptimal/Bubo
+Testing the Polar chart from: http://www.amcharts.com/
 
 ### Proprioceptors sensors
 
