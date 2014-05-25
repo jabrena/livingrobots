@@ -87,10 +87,10 @@ public class RPLIDARTest2 {
 			System.out.println("Angle to turn: " + angleToTurn);
 			
 			//Move the robot
-			pilot.rotate(angleToTurn);
+			//pilot.rotate(angleToTurn);
 			
 			//TODO: If the distance is large, increase the distance to move.
-			pilot.travel(20);
+			//pilot.travel(20);
 			pilot.stop();
 			
 			//flag = false;
