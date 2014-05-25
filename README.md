@@ -115,7 +115,7 @@ LeJOS Sensor Class: https://github.com/jabrena/livingrobots/blob/master/chapter3
 
 #### Issues
 
-    1. It is necessary to fix a bug in "fetchSample" method
+    1. It is necessary to fix a bug in the method "fetchSample"
 
 ### Proprioceptors sensors
 
