@@ -98,6 +98,8 @@ Note: It is necessary to launch the webserver:
 
     root@(none):~# httpd -v -h /home/lejos/www/
 
+#### Sensor support
+
 RPLIDAR Arduino Library: https://github.com/jabrena/livingrobots/raw/master/chapter3/arduino/RPLIDAR/Driver/RPLidarDriver_r1.0.zip
 
 Arduino Sketch: https://github.com/jabrena/livingrobots/blob/master/chapter3/arduino/RPLIDAR/Sketches/simple_connect6/simple_connect6.ino
