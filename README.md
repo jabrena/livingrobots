@@ -92,6 +92,8 @@ RPLIDAR is a low cost 360 degree 2D laser scanner (LIDAR) solution developed by 
 
 Generating onfly a JSON file to be used for a Polar Chart.
 
+    http://192.168.0.101/Radar/amcharts/polarChart.htm
+
 Note: It is necessary to launch the webserver:
 
     root@(none):~# httpd -v -h /home/lejos/www/
