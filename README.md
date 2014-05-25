@@ -15,18 +15,6 @@ Downloads: https://github.com/jabrena/livingrobots/raw/master/chapter0/docs/LRWE
 
 ## Chapter 1: Introduction
 
-### Lego Mindstorms
-
-Pending
-
-### LeJOS Project
-
-Pending
-
-### Alternatives to Lego Mindstorms
-
-Pending
-
 ### Living Robots
 
 #### Brity V2
@@ -41,18 +29,6 @@ Specifications:
     1x Smartphone + Chrome Web browser
 
 ![ScreenShot](https://raw.githubusercontent.com/jabrena/livingrobots/master/LDD/Base1/Base1_5.png)
-
-### Pedadogy
-
-Pending
-
-### References
-
-http://www.cs.berkeley.edu/~jfc/hcc/courseF99/projects/magno.pdf
-
-https://creative-computing.appspot.com/assets/lib/Papert-1993.pdf
-
-http://facweb.cs.depaul.edu/elulis/ricca.pdf
 
 ## Chapter 2: Fundamentals of Robotics
 
