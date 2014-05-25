@@ -56,8 +56,6 @@ http://facweb.cs.depaul.edu/elulis/ricca.pdf
 
 ## Chapter 2: Fundamentals of Robotics
 
-### Wheeled mobile robots
-
 Pending
 
 ### References
@@ -130,7 +128,7 @@ http://rplidar.robopeak.com/index.html
 
 In this chapter, user will learn basic concepts about Local & Global navigation
 
-### Wheeled robots
+### Wheeled mobile robots
 
 http://www.lejos.org/ev3/docs/lejos/robotics/navigation/DifferentialPilot.html
 
