@@ -133,16 +133,6 @@ Sensors tested:
     Example: How to use the sensor RPLIDAR
     Example: How to generate JSON data to view LIDAR data
 
-### References
-
-http://en.wikipedia.org/wiki/Arduino
-
-http://arduino.cc/en/Main/ArduinoProtoShield
-
-http://www.dexterindustries.com/NXTBreadBoard.html
-
-http://rplidar.robopeak.com/index.html
-
 ## Chapter 4: Actuators
 
 Pending
