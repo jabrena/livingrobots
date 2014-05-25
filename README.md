@@ -8,7 +8,7 @@ Living Robots, is the Github repository for the new Ebook about LeJOS "Living Ro
 If you enjoyed the previous ebook (http://juanantonio.info/lejos-ebook/) then book your copy now: http://juanantonio.info/about.htm
 
     05/04/2014: First commit
-    05/25/2014: RPLIDAR Driver
+    05/25/2014: RPLIDAR Support for LeJOS
 
 ## Chapter 0:
 
@@ -177,6 +177,7 @@ In this section, user will learn basic stuff about Modern web development.
 
     Example: Web remote control with Websockets
     Example: Data visualization for RPLIDAR
+    Example: Occupancy grid map viewer
 
 ## Chapter 9: Communications
 
