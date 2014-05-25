@@ -1,0 +1,5 @@
+### References
+
+http://robotics.usc.edu/~aatrash/cs445/lec12.pdf
+
+http://robotics.usc.edu/~aatrash/cs445/lec13.pdf

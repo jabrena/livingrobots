@@ -233,12 +233,6 @@ The behaviours are modelled with a HFSM using Apache Commons SCXML.
 
 Examples: https://github.com/jabrena/liverobots
 
-### References
-
-http://robotics.usc.edu/~aatrash/cs445/lec12.pdf
-
-http://robotics.usc.edu/~aatrash/cs445/lec13.pdf
-
 ## Chapter 7: Computer vision
 
 Pending
