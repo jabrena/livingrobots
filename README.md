@@ -7,7 +7,8 @@ Living Robots, is the Github repository for the new Ebook about LeJOS "Living Ro
 
 If you enjoyed the previous ebook (http://juanantonio.info/lejos-ebook/) then book your copy now: http://juanantonio.info/about.htm
 
-    2014/05/04: First commit
+    05/04/2014: First commit
+    05/25/2014: RPLIDAR Driver
 
 ## Chapter 0:
 
