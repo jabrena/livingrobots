@@ -121,6 +121,10 @@ LeJOS Sensor Class: https://github.com/jabrena/livingrobots/blob/master/chapter3
 
 Proprioception in robotics means sensing the internal state of the robot or a part of it . For example the posture of a mechanical manipulator, leg or other jointed mechanism or the battery level.
 
+Sensors tested:
+
+    EV3 Battery
+
 ### Examples
 
     Example: IRSensor to detect a Beacon
