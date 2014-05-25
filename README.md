@@ -212,19 +212,6 @@ An example when the httpd is pretty busy:
      1551  1197 root     S     178m 300%  16% /home/root/lejos/ejre1.7.0_55/bin/java
      1735     1 root     R     2880   5%  11% httpd -v -h /home/lejos/www/ 
 
-Nano Web server running on EV3 and suffering a DOS Attack:
-
-    Mem: 59800K used, 1060K free, 0K shrd, 48K buff, 4288K cached
-    CPU:  23% usr  26% sys   0% nic   0% idle  23% io   9% irq  17% sirq
-    Load average: 3.60 1.78 0.77 1/373 2030
-    PID  PPID USER     STAT   VSZ %MEM %CPU COMMAND
-    1577  1538 root     S     266m 447%  43% /home/root/lejos/ejre1.7.0_55/bin/java -classpath /ho
-        4     2 root     SW       0   0%  11% [events/0]
-      430     2 root     DW       0   0%   8% [mmcqd]
-     1538  1184 root     S     179m 301%   5% /home/root/lejos/ejre1.7.0_55/bin/java -classpath /ho
-      180     2 root     DW       0   0%   4% [kswapd0]
-     1594  1567 root     R     3072   5%   2% top 
-
 ### Web Interfaces
 
 In this section, user will learn basic stuff about Modern web development.
@@ -264,6 +251,19 @@ It is very important to ensure that your robot operates in a secure environment.
 ![ScreenShot](https://raw.githubusercontent.com/jabrena/livingrobots/master/chapter15/docs/Tachikoma.png)
 
 In this chapter you will learn some concepts about security for Unix. Remember that your EV3 Brick run over a Busybox distro.
+
+Nano Web server running on EV3 and suffering a DOS Attack:
+
+    Mem: 59800K used, 1060K free, 0K shrd, 48K buff, 4288K cached
+    CPU:  23% usr  26% sys   0% nic   0% idle  23% io   9% irq  17% sirq
+    Load average: 3.60 1.78 0.77 1/373 2030
+    PID  PPID USER     STAT   VSZ %MEM %CPU COMMAND
+    1577  1538 root     S     266m 447%  43% /home/root/lejos/ejre1.7.0_55/bin/java -classpath /ho
+        4     2 root     SW       0   0%  11% [events/0]
+      430     2 root     DW       0   0%   8% [mmcqd]
+     1538  1184 root     S     179m 301%   5% /home/root/lejos/ejre1.7.0_55/bin/java -classpath /ho
+      180     2 root     DW       0   0%   4% [kswapd0]
+     1594  1567 root     R     3072   5%   2% top 
 
 ### Examples
 
