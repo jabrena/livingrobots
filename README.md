@@ -58,24 +58,6 @@ http://facweb.cs.depaul.edu/elulis/ricca.pdf
 
 Pending
 
-### References
-
-http://www.probabilistic-robotics.org/
-
-http://probabilistic-robotics.informatik.uni-freiburg.de/ppt/
-
-http://www.eecs.yorku.ca/course_archive/2011-12/W/4421/lectures.html
-
-http://www.ohio.edu/people/williar4/html/PDF/IntroRob.pdf
-
-http://www-ee.ccny.cuny.edu/www/web/jxiao/I5501-introduction.pdf
-
-http://robotics.usc.edu/~aatrash/cs445/lec01.pdf
-
-http://www.cs.cmu.edu/~me/811/
-
-http://er.jsc.nasa.gov/seh/robot_pdf_files/robotics_in_the_classroom.pdf
-
 ## Chapter 3: Sensors
 
 In this chapter, we will cover the most popular and useful sensors compatible with EV3 Brick.
