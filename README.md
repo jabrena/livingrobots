@@ -106,6 +106,9 @@ Arduino Sketch: https://github.com/jabrena/livingrobots/blob/master/chapter3/ard
 
 LeJOS Sensor Class: https://github.com/jabrena/livingrobots/blob/master/chapter3/ev3/RPLIDARTest/src/lejos/hardware/sensor/RPLIDARSensor.java
 
+#### Issues
+
+    1. It is necessary to fix a bug in "fetchSample" method
 
 ### Proprioceptors sensors
 
