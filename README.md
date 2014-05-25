@@ -287,16 +287,6 @@ https://github.com/NanoHttpd/nanohttpd
 
 This chapter covers the following technologies: Websockets, Http, RMI, D-Bus & I2C.
 
-### References
-
-http://en.wikipedia.org/wiki/I2C
-
-http://arduino.cc/en/Reference/Wire
-
-http://playground.arduino.cc/Main/WireLibraryDetailedReference
-
-https://github.com/DexterInd/EV3_Dexter_Industries_Sensors/blob/master/EV3_arduino/
-
 ## Chapter 15: Hacking robots
 
 It is very important to ensure that your robot operates in a secure environment. Learn some stuff about security for Robots and avoid future robot's hacks.
