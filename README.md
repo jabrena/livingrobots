@@ -335,18 +335,6 @@ The examples included in this chapter are:
     Exercise 1: How to add a program in the startup
     Exercise 2: Create a Virus for EV3 brick
 
-### References
-
-http://freeware.the-meiers.org/
-
-http://www.openwall.com/john/
-
-http://www.jcraft.com/jsch/
-
-https://www.thc.org/thc-hydra/
-
-http://nmap.org/
-
 ## Annexes
 
 ## Annex 1: Getting started with LeJOS
