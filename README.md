@@ -275,14 +275,6 @@ In this section, user will learn basic stuff about Modern web development.
     Example: Web remote control with Websockets
     Example: Data visualization for RPLIDAR
 
-### References
-
-http://git.busybox.net/busybox/tree/networking/httpd.c
-
-https://github.com/TooTallNate/Java-WebSocket
-
-https://github.com/NanoHttpd/nanohttpd
-
 ## Chapter 9: Communications
 
 This chapter covers the following technologies: Websockets, Http, RMI, D-Bus & I2C.

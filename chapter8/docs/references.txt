@@ -1,0 +1,7 @@
+References
+
+http://git.busybox.net/busybox/tree/networking/httpd.c
+
+https://github.com/TooTallNate/Java-WebSocket
+
+https://github.com/NanoHttpd/nanohttpd
