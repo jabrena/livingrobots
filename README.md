@@ -130,6 +130,10 @@ http://rplidar.robopeak.com/index.html
 
 In this chapter, user will learn basic concepts about Local & Global navigation
 
+### Wheeled robots
+
+http://www.lejos.org/ev3/docs/lejos/robotics/navigation/DifferentialPilot.html
+
 ### Occupancy grid maps
 
 ![ScreenShot](https://raw.githubusercontent.com/jabrena/livingrobots/master/chapter8/docs/mapping.png)
