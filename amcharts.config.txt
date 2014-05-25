@@ -1,0 +1,39 @@
+   "valueAxes": [{
+        "gridType": "circles",
+        "minimum": 0,
+        "autoGridCount": false,
+        "axisAlpha": 0.2,
+        "fillAlpha": 0.05,
+        "fillColor": "#FFFFFF",
+        "gridAlpha": 0.08,
+        "guides": [{
+            "angle": 225,
+            "fillAlpha": 0.3,
+            "fillColor": "#0066CC",
+            "tickLength": 0,
+            "toAngle": 315,
+            "toValue": 14,
+            "value": 0,
+			"lineAlpha": 0,
+
+        }, {
+            "angle": 45,
+            "fillAlpha": 0.3,
+            "fillColor": "#CC3333",
+            "tickLength": 0,
+            "toAngle": 135,
+            "toValue": 14,
+            "value": 0,
+			"lineAlpha": 0,
+        }],
+        "position": "left"
+    }],
+    "startDuration": 0,
+    "graphs": [{
+        "balloonText": "[[category]]: [[value]] m/s",
+        "bullet": "round",
+        "fillAlphas": 0.3,
+        "valueField": "value"
+    }],
+    "categoryField": "direction"   
+}); 
