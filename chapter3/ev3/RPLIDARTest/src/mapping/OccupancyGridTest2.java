@@ -36,7 +36,7 @@ public class OccupancyGridTest2 {
 		int mapDimension = 20;
 
 		OccupancyGridMap cgm = new OccupancyGridMap(mapDimension,cellSize);
-		cgm.setFilePath("/home/jabrena/DATA/JAB/research/robotics/lejos/ev3/EV3_WebUI/www/js/");
+		cgm.setFilePath("/home/lejos/www/ogm/js/");
 		cgm.setFileName("map.js");
 
 		float distance = 0;
