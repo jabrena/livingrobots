@@ -120,6 +120,8 @@ http://www.lejos.org/ev3/docs/lejos/robotics/mapping/OccupancyGridMap.html
 
 ![ScreenShot](https://raw.githubusercontent.com/jabrena/livingrobots/master/chapter8/docs/mapping.png)
 
+Idea from: http://www.cs.ox.ac.uk/people/michael.wooldridge/teaching/robotics/lect05.pdf
+
 ## Chapter 6: Cognition
 
 ### Reactive Control
