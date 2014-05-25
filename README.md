@@ -167,15 +167,26 @@ In this chapter, user will learn basic concepts about Local & Global navigation
 
 ### Local navigation
 
+http://www.lejos.org/ev3/docs/lejos/robotics/navigation/DifferentialPilot.html
+
+http://www.lejos.org/ev3/docs/lejos/robotics/localization/OdometryPoseProvider.html
+
+http://www.lejos.org/ev3/docs/lejos/robotics/localization/CompassPoseProvider.html
+
+http://www.lejos.org/ev3/docs/lejos/robotics/mapping/EV3NavigationModel.html
+
+http://www.lejos.org/ev3/docs/lejos/robotics/localization/MCLPoseProvider.html
+
 #### Wheeled mobile robots
 
 ####  Occupancy grid maps
+
+http://www.lejos.org/ev3/docs/lejos/robotics/mapping/OccupancyGridMap.html
 
 ![ScreenShot](https://raw.githubusercontent.com/jabrena/livingrobots/master/chapter8/docs/mapping.png)
 
 ### References
 
-http://www.lejos.org/ev3/docs/lejos/robotics/navigation/DifferentialPilot.html
 
 http://www.cs.ox.ac.uk/people/michael.wooldridge/teaching/robotics/lect05.pdf
 
