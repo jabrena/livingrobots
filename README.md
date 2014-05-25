@@ -84,6 +84,13 @@ In this chapter, we will cover the most popular and useful sensors compatible wi
 
 Exteroceptors are sensors that measure the positional or force-type interaction of the robot with its environment. 
 
+Sensors tested:
+
+    Robopeak RPLIDAR
+    EV3 IRSensor
+    Hitechnic Compass Sensor
+    Dexter GPS
+
 #### RPLIDAR
 
 RPLIDAR is a low cost 360 degree 2D laser scanner (LIDAR) solution developed by RoboPeak. The system can perform 360 degree scan within 6 meter range. The produced 2D point cloud data can be used in mapping, localization and object/environment modeling.
