@@ -145,9 +145,7 @@ http://rplidar.robopeak.com/index.html
 
 ## Chapter 4: Actuators
 
-### Examples
-
-    Example: Simple bumper car
+Pending
 
 ## Chapter 5: Navigation
 
@@ -190,6 +188,10 @@ Example: http://sourceforge.net/p/lejos/ev3/ci/master/tree/EV3BumperCar/src/EV3B
 The behaviours are modelled with a HFSM using Apache Commons SCXML.
 
 Examples: https://github.com/jabrena/liverobots
+
+### Examples
+
+    Example: Simple bumper car
 
 ## Chapter 7: Computer vision
 
