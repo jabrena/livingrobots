@@ -35,15 +35,26 @@ public class RPLIDARSensor extends I2CSensor implements SensorMode {
 	}
 
 
-	public void fetchSample(float[] sample, int offset) {
+	public void fetchSample(float[] samples, int offset) {
 		for(int j= 0; j < RPILidarRegisterByte1.length; j++){
 			this.getData(RPILidarRegisterByte1[j], buffReadResponse, buffReadResponse.length);
 			this.getData(RPILidarRegisterByte2[j], buffReadResponse2, buffReadResponse2.length);
           
 			updateDistances(RPILidarAngleBlocks[j]);
-			
-			sample = distances;
-		}   
+		}
+		
+		samples = distances;
+	}
+	
+	public float[] fetchSample2(float[] samples, int offset) {
+		for(int j= 0; j < RPILidarRegisterByte1.length; j++){
+			this.getData(RPILidarRegisterByte1[j], buffReadResponse, buffReadResponse.length);
+			this.getData(RPILidarRegisterByte2[j], buffReadResponse2, buffReadResponse2.length);
+          
+			updateDistances(RPILidarAngleBlocks[j]);
+		}
+		
+		return distances;
 	}
 	
 	private void updateDistances(int from){
@@ -51,7 +62,10 @@ public class RPLIDARSensor extends I2CSensor implements SensorMode {
 			int value = (buffReadResponse[i] & 0xff);
 			int value2 = (buffReadResponse2[i] & 0xff);
 			distances[from + i] = value + value2;
-		}
+			
+			//System.out.print(from + i + " " + new String(String.valueOf(value2)) + " ");
+       }
+       //System.out.println(" ");
 	}
 
 	public int sampleSize() {

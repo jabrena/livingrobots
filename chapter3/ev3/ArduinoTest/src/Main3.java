@@ -4,7 +4,7 @@ import lejos.hardware.sensor.I2CSensor;
 
 public class Main3 {
    static int I2CSlaveAddress = 8;
-   static byte[] buffReadResponse = new byte[8];
+   static byte[] buffReadResponse = new byte[30];
    static byte[] buffReadResponse2 = new byte[360];
    
    
@@ -15,13 +15,14 @@ public class Main3 {
       int j = 1;
       
       while(j < 10){
-          arduino.getData(0x01, buffReadResponse2, buffReadResponse2.length);
-          for(int i = 1; i <360; i++){
+          arduino.getData(0x01, buffReadResponse, buffReadResponse.length);
+          for(int i = 0; i < 30; i++){
         	  
-        	  int value = (buffReadResponse2[i] & 0xff);
-        	  System.out.print(i + " " + new String(String.valueOf(value)));
+        	  int value = (buffReadResponse[i] & 0xff);
+        	  System.out.print(i + " " + new String(String.valueOf(value)) + " ");
           }
-          System.out.println("");
+          System.out.println(" ");
+          Thread.sleep(300);
       }
       
 

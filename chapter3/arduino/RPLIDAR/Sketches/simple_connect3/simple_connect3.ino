@@ -117,11 +117,46 @@ void receiveData(int byteCount){
     }
 }
 
-
+byte b[20];
 
 // callback for sending data
 void sendData(){
+  
+  value = 200;
+  
+  b[0]=value;
+  b[1]=value;
+  b[2]=value;
+  b[3]=value;
+  b[4]=value;
+  b[5]=value;
+  b[6]=value;
+  b[7]=value;
+  b[8]=value;
+  b[9]=value;
+  b[10]=value;
+  b[11]=value;
+  b[12]=value;
+  b[13]=value;
+  b[14]=value;
+  b[15]=value;
+  b[16]=value;
+  b[17]=value;
+  b[18]=value;
+  b[19]=value;
+  b[20]=value;
+  b[21]=value;
+  b[22]=value;
+  b[23]=value;
+  b[24]=value;
+  b[25]=value;
+  b[26]=value;
+  b[27]=value;
+  b[28]=value;
+  b[29]=value;
+  
+  Wire.write(b,30);
 
-  Wire.write(distances2,360);
+  //Wire.write(distances2,);
 
 }
