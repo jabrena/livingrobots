@@ -145,18 +145,6 @@ http://rplidar.robopeak.com/index.html
 
 ## Chapter 4: Actuators
 
-### EV3 Motors
-
-Pending
-
-### PF Motors
-
-Pending
-
-### RC Motors
-
-Pending
-
 ### Examples
 
     Example: Simple bumper car
