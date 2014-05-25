@@ -88,11 +88,11 @@ Exteroceptors are sensors that measure the positional or force-type interaction 
 
 RPLIDAR is a low cost 360 degree 2D laser scanner (LIDAR) solution developed by RoboPeak. The system can perform 360 degree scan within 6 meter range. The produced 2D point cloud data can be used in mapping, localization and object/environment modeling.
 
-![ScreenShot](https://github.com/jabrena/livingrobots/raw/master/chapter3/docs/RPLIDAR_livingRoom.png)
-
-Generating onfly a JSON file to be used for a Polar Chart.
+Data visualization with a Polar Chart.
 
     http://192.168.0.101/Radar/amcharts/polarChart.htm
+
+![ScreenShot](https://github.com/jabrena/livingrobots/raw/master/chapter3/docs/RPLIDAR_livingRoom.png)
 
 Note: It is necessary to launch the webserver:
 
