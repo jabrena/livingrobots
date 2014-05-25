@@ -216,11 +216,12 @@ An example when the httpd is pretty busy:
 
 In this section, user will learn basic stuff about Modern web development.
 
-### Websockets
-
-In this section, user will learn to develop a distributed application using Websockets technology.
-
 ![ScreenShot](https://raw.githubusercontent.com/jabrena/livingrobots/master/chapter8/docs/remoteControl.jpg)
+
+### Examples
+
+    Example: Web remote control with Websockets
+    Example: Data visualization for RPLIDAR
 
 ### References
 
