@@ -17,6 +17,8 @@ http://ijcai.org/papers07/Papers/IJCAI07-350.pdf
 
 https://github.com/edgemaster/robotics/tree/master/lejos/tut5Probability/src/navigation
 
+https://personalrobotics.ri.cmu.edu/courses/16662/scribe/scribe_lec23.pdf
+
 ### Exercises
 
 http://ais.informatik.uni-freiburg.de/teaching/ss11/robotics/exercises/sheet07.pdf

@@ -30,8 +30,8 @@ public class RPLIDARTest2 {
 		RegulatedMotor leftMotor=new EV3LargeRegulatedMotor(brick.getPort("B"));
 		RegulatedMotor rightMotor=new EV3LargeRegulatedMotor(brick.getPort("A"));
 		
-		leftMotor.setAcceleration(400);
-		rightMotor.setAcceleration(400);
+		leftMotor.setAcceleration(200);
+		rightMotor.setAcceleration(200);
 
 		leftMotor.setSpeed(400);
 		rightMotor.setSpeed(400);
@@ -78,7 +78,13 @@ public class RPLIDARTest2 {
 			System.out.println("Max Angle: " + maxAngle);
 			
 			//TODO: Improve the movements in case of angles > 180 degrees
-			angleToTurn = maxAngle;
+			if(maxAngle > 180){
+				angleToTurn = maxAngle - 360;
+			}else{
+				angleToTurn = maxAngle;
+			}
+			
+			System.out.println("Angle to turn: " + angleToTurn);
 			
 			//Move the robot
 			pilot.rotate(angleToTurn);
@@ -90,9 +96,10 @@ public class RPLIDARTest2 {
 			//flag = false;
 			
 			generateJSON(distances);
+			generateJSArray(distances);
 			
 			//Debugging purpose
-			try {Thread.sleep(5000);} catch (InterruptedException e) {}
+			//try {Thread.sleep(5000);} catch (InterruptedException e) {}
 
 		}
 		
@@ -109,6 +116,42 @@ public class RPLIDARTest2 {
 		
 		return median;
 	}
+	
+    private static void generateJSArray(float[] samples) throws IOException{
+    	
+    	StringBuffer sb = new StringBuffer();
+
+    	String path = "/home/lejos/www/ogm/js/distances.js";
+    	
+    	sb.append("var distances = Array( \r\n");
+    	
+    	for(int i=0;i<samples.length;i++){
+    		if(i == samples.length -1){
+    	   		sb.append("[" + (i+1) + "," + samples[i] + "] \r\n");
+    		}else{
+    			sb.append("[" + (i+1) + "," + samples[i] + "], \r\n");
+    		}
+    	}
+    	
+    	sb.append(" ); \r\n");
+    	
+    	BufferedWriter writer = null;
+    	try{
+    	    writer = new BufferedWriter( new FileWriter(path));
+    	    writer.write( sb.toString());
+
+    	}catch ( IOException e){
+    	}finally{
+    	    try{
+    	        if ( writer != null)
+    	        writer.close( );
+    	    }catch ( IOException e){
+    	    }
+    	}
+    	
+    	System.out.println("OK");
+    	
+    }
 	
     private static void generateJSON(float[] samples) throws IOException{
     	

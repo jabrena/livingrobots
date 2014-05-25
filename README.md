@@ -72,6 +72,12 @@ Arduino Sketch: https://github.com/jabrena/livingrobots/blob/master/chapter3/ard
 
 LeJOS Sensor Class: https://github.com/jabrena/livingrobots/blob/master/chapter3/ev3/RPLIDARTest/src/lejos/hardware/sensor/RPLIDARSensor.java
 
+### Usage
+
+Take a look a preliminar test using the Sensor.
+
+https://www.youtube.com/watch?v=1XT2HOc5IsA
+
 #### Issues
 
     1. It is necessary to fix a bug in the method "fetchSample"

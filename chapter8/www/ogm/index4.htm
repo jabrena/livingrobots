@@ -1,0 +1,175 @@
+<!DOCTYPE HTML>
+<HTML>
+<head>	
+	<title>Occupancy grid map</title>
+
+	<!-- CSS -->
+	<link rel="stylesheet" href="./styles/bootstrap.css">
+	<link rel="stylesheet" href="./styles/bootstrap-responsive.css">
+	<link rel="stylesheet" href="./styles/ev3webui.css">
+	
+	<!-- JAVASCRIPT -->
+ 	<script type="text/javascript" src="./js/jquery-2.0.3.min.js" ></script>
+	<script type="text/javascript" src="./js/map.js" ></script>
+	<script type="text/javascript" src="./js/distances.js" ></script>
+	<script type="text/javascript">
+
+	function fillMap(mapObj,data,color){
+		var width = "10";
+		var angle = 0;
+		var range = 0;
+		var x = 0;
+		var y = 0;
+		var xx = 0;
+		var yy = 0;
+
+		var canvas = document.getElementById(mapObj);
+
+
+		for(i=0;i<distances.length;i++){
+			if (canvas.getContext) {
+
+/*
+    double range = scan_in->ranges[i];
+    //find the point in base_laser_link frame corresponding to the scan
+    closest_angle = ((double)i*scan_in->angle_increment)+scan_in->angle_min;
+    double x = range * cos (closest_angle);
+    double y = range * sin (closest_angle);
+
+*/
+angle = distances[i][0];
+range = distances[i][1];
+x = range * Math.cos(angle);
+y = range * Math.sin(angle);
+
+console.log(angle + " " + range + " " + x + " " +y);
+//console.log(range);
+//console.log(x);
+//console.log(y);
+					//var cell = data[y][x];
+		
+					var context = canvas.getContext('2d');
+
+					context.fillStyle = "rgb(150,29,28)"; // Yellow
+
+/*
+					if(cell == 0){
+						context.fillStyle = "rgb(150,29,28)"; // red
+					}else if(cell == 1){
+						context.fillStyle = color; // Yellow
+					}
+					*/
+					xx = x*width;
+					yy = y*width;
+					console.log(xx + " " + yy);
+		
+					context.fillRect(x*width,y*width,width,width);
+			}
+		}
+	}	
+
+	function fillCanvasFixedColor(mapObj,data,color){
+		var width = "15";
+		var canvas = document.getElementById(mapObj);
+
+		for(y=0;y<data.length;y++){
+			for(x=0;x<data[y].length;x++){
+
+				if (canvas.getContext) {
+					//var color = Math.floor((Math.random()*10)+1);
+					var cell = data[y][x];
+		
+					var context = canvas.getContext('2d');
+
+					if(cell == 0){
+						context.fillStyle = "rgb(150,29,28)"; // red
+					}else if(cell == 1){
+						context.fillStyle = color; // Yellow
+					}
+		
+					context.fillRect(x*width,y*width,width,width);
+				}
+			}
+		}
+	}
+
+	$(function() {
+		//fillCanvas2("mapM",mapM);
+		//fillCanvas("mapC",mapC);
+		//fillCanvasFixedColor("mapP",mapP,"rgb(255,255,0)");
+		//fillCanvasFixedColor("mapR",mapR,"rgb(255,155,0)");
+		fillMap("mapR",mapR,"rgb(255,155,0)");
+	});
+    </script>
+</head>
+<body>
+	<!-- Main Container-->
+	<div class="container">
+
+		<div class="bodyContent">
+	
+			<div class="row-fluid">
+				<div class="span4">
+					<h4>M</h4>
+					<p>
+M[xmax,ymax] is an  array  of  integers, inialised to  0  with xmax being the maximum x coordinate, ymax  being  the  maximum  y  coordinate - is will be the  map.
+					</p>
+				</div>
+				<div class="span4">
+					<h4>C</h4>
+					<p>
+C[xmax,ymax] is a acorresponding array counting	the number of observations  we have  made of  each cell - initialised to 0.	
+
+					</p>
+				</div>
+				<div class="span4">
+					<h4>OGM</h4>
+					<p>
+If M[x,y] > 0 and C[x,y] > 0 then [x,y] is "probably occupied"<br />
+If M[x,y] < 0 and C[x,y] > 0 then [x,y] is "probably unoccupied"	
+					</p>
+				</div>
+			</div>
+			<div class="row-fluid">
+				<div class="span4">
+					<canvas id="mapM" width="300" height="300"></canvas>
+				</div>
+				<div class="span4">
+					<canvas id="mapC" width="300" height="300"></canvas>
+				</div>
+				<div class="span4">
+					<canvas id="mapOGM" width="300" height="300"></canvas>
+				</div>
+			</div>
+			<div class="row-fluid">
+				<div class="span4">
+					<h4>P</h4>
+					<p>
+					Pose map
+					</p>
+				</div>
+				<div class="span4">
+					<h4>R</h4>
+					<p>
+					Simulated map. This map is used to test algorithm.
+					</p>
+				</div>
+				<div class="span4">
+
+				</div>
+			</div>
+			<div class="row-fluid">
+				<div class="span4">
+					<canvas id="mapP" width="300" height="300"></canvas>
+				</div>
+				<div class="span4">
+					<canvas id="mapR" width="300" height="300"></canvas>
+				</div>
+				<div class="span4">
+					
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
