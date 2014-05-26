@@ -134,11 +134,19 @@ http://www.cs.ox.ac.uk/people/michael.wooldridge/teaching/robotics/lect05.pdf
 
 Once the robot has the environment to operate, it is possible to use some kind of Path Planning algorithm.
 
-#### Path planning
+#### Local path planning
+
+##### LeJOS development:
 
 https://svn.code.sf.net/p/lejos/code/trunk/samples/src/org/lejos/sample/pathfinding/PathFinding.java
 
 https://svn.code.sf.net/p/lejos/code/trunk/samples/src/org/lejos/sample/waypointnav/WaypointNav.java
+
+##### Virtual Potential Fields
+
+![ScreenShot](http://www.cs.mcgill.ca/~hsafad/robotics/report_files/image010.jpg)
+
+http://www.cs.mcgill.ca/~hsafad/robotics/
 
 ## Chapter 6: Cognition
 
