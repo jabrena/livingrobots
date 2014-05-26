@@ -29,3 +29,6 @@ http://www.sci.brooklyn.cuny.edu/~parsons/courses/3415-fall-2011/projects/projec
 
 http://www.asl.ethz.ch/research/asl/cogniron/ShrihariVasudevan_CWSHRI08.pdf
 
+http://www.cs.bham.ac.uk/internal/courses/robot-prog/2010/notes.php
+
+

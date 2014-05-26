@@ -132,6 +132,10 @@ I have to analyze continue working in this development to create a map from the 
 
 http://www.cs.ox.ac.uk/people/michael.wooldridge/teaching/robotics/lect05.pdf
 
+http://www.cs.cmu.edu/~motionplanning/lecture/Chap9-Bayesian-Mapping_howie.pdf
+
+http://ais.informatik.uni-freiburg.de/teaching/ws12/mapping/pdf/slam02-bayes-filter-short.pdf
+
 Once the robot has the environment to operate, it is possible to use some kind of Path Planning algorithm.
 
 #### Local path planning
