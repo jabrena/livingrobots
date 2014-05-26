@@ -128,7 +128,11 @@ In the following picture you see the Occupancy grid map representation:
 
     http://192.168.0.101/ogm/index.htm
 
-Once the robot has the environment to operate, it is possible to use some kind of Path planning Algorithm.
+I have to analyze continue working in this development to create a map from the living room and evolve the system using Bayes theory.
+
+http://www.cs.ox.ac.uk/people/michael.wooldridge/teaching/robotics/lect05.pdf
+
+Once the robot has the environment to operate, it is possible to use some kind of Path Planning algorithm.
 
 #### Path planning
 
