@@ -130,7 +130,7 @@ In the following picture you see the Occupancy grid map representation:
 
 Once the robot has the environment to operate, it is possible to use some kind of Path planning Algorithm.
 
-### Path planning
+#### Path planning
 
 https://svn.code.sf.net/p/lejos/code/trunk/samples/src/org/lejos/sample/pathfinding/PathFinding.java
 
