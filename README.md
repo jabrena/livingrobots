@@ -104,25 +104,37 @@ In this chapter, user will learn basic concepts about Local & Global navigation
 
 ### Local navigation
 
+#### Wheeled mobile robots
+
 http://www.lejos.org/ev3/docs/lejos/robotics/navigation/DifferentialPilot.html
 
 http://www.lejos.org/ev3/docs/lejos/robotics/localization/OdometryPoseProvider.html
 
 http://www.lejos.org/ev3/docs/lejos/robotics/localization/CompassPoseProvider.html
 
-http://www.lejos.org/ev3/docs/lejos/robotics/mapping/EV3NavigationModel.html
-
-http://www.lejos.org/ev3/docs/lejos/robotics/localization/MCLPoseProvider.html
-
-#### Wheeled mobile robots
-
 ####  Occupancy grid maps
 
-http://www.lejos.org/ev3/docs/lejos/robotics/mapping/OccupancyGridMap.html
+A robot needs to know the environment to operate. A LIDAR sensor help to discover the environment.
 
-![ScreenShot](https://raw.githubusercontent.com/jabrena/livingrobots/master/chapter8/docs/mapping.png)
+In the following picture, you see a Polar View:
 
-Idea from: http://www.cs.ox.ac.uk/people/michael.wooldridge/teaching/robotics/lect05.pdf
+![ScreenShot](https://raw.githubusercontent.com/jabrena/livingrobots/master/chapter5/docs/OGM_PolarChart.png)
+
+    http://192.168.0.101/Radar/amcharts/polarChart.htm
+
+In the following picture you see the Occupancy grid map representation:
+
+![ScreenShot](https://raw.githubusercontent.com/jabrena/livingrobots/master/chapter5/docs/OGM_WebView.png)
+
+    http://192.168.0.101/ogm/index.htm
+
+Once the robot has the environment to operate, it is possible to use some kind of Path planning Algorithm.
+
+### Path planning
+
+https://svn.code.sf.net/p/lejos/code/trunk/samples/src/org/lejos/sample/pathfinding/PathFinding.java
+
+https://svn.code.sf.net/p/lejos/code/trunk/samples/src/org/lejos/sample/waypointnav/WaypointNav.java
 
 ## Chapter 6: Cognition
 

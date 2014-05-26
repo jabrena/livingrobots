@@ -1,9 +1,11 @@
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
 import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.io.PrintStream;
 
 import lejos.hardware.Brick;
 import lejos.hardware.BrickFinder;
@@ -15,6 +17,8 @@ import lejos.hardware.sensor.RPLIDARSensor;
 import lejos.robotics.RegulatedMotor;
 import lejos.robotics.SampleProvider;
 import lejos.robotics.navigation.DifferentialPilot;
+import lejos.robotics.navigation.Pose;
+import mapping.OccupancyMap;
 
 
 public class RPLIDARTest2 {
@@ -44,6 +48,8 @@ public class RPLIDARTest2 {
 		
 		SampleProvider lidarMode = lidar.getLIDARMode();
         float[] distances = new float[lidarMode.sampleSize()];
+        
+        
         
         int angles[] = {0,30,60,90,120,150,180,210,240,270,300,330};
         float maxDistance = 0;
@@ -97,7 +103,28 @@ public class RPLIDARTest2 {
 			//flag = false;
 			
 			generateJSON(distances);
-			generateJSArray(distances);
+			//generateJSArray(distances);
+			
+			Pose p = new Pose(20,20,0);
+			int[][] map;
+			
+			OccupancyMap ogm = new OccupancyMap();;
+	    	for(int i=0;i<distances.length;i++){
+	    		
+	    		ogm.updateValue(p, i, (int) distances[i]);
+
+	    	}
+	    	
+	    	map = ogm.getMap();
+	    	
+			StringBuffer sb = new StringBuffer();
+			String mapM = getJSArrayMap("mapM", map, false);
+			sb.append(mapM);
+			store(sb.toString(),"/home/lejos/www/ogm/js/map2.js");
+			
+			System.out.println("OK");
+			
+			//
 			
 			//Debugging purpose
 			//try {Thread.sleep(5000);} catch (InterruptedException e) {}
@@ -109,6 +136,56 @@ public class RPLIDARTest2 {
 		
 		System.exit(0);
         
+	}
+	
+	private static void store(final String content, String path){
+		PrintStream out = null;
+		try {
+			out = new PrintStream(new FileOutputStream(path));
+		    out.print(content);
+		} catch (FileNotFoundException e) {
+			System.out.println(e.getMessage());
+		}
+		finally {
+		    if (out != null) out.close();
+		}
+	}
+	
+	private static String getJSArrayMap(String mapName, int[][] data, boolean reverse){
+		StringBuffer sb = new StringBuffer();
+		
+		sb.append("var " + mapName + " = Array(");
+		sb.append("\n");
+		
+		int counter = 0;
+		for(int y = 0; y< data.length; y++){
+			sb.append("[");
+			for(int x = 0; x< data.length; x++){
+				
+				if(reverse){
+					sb.append(data[y][x]);
+				}else{
+					sb.append(data[x][y]);					
+				}
+				
+				if(x < data.length-1){
+					sb.append(",");
+				}
+			}
+			sb.append("]");
+			
+			if(counter < data.length-1){
+				sb.append(",");
+			}
+			
+			sb.append("\n");
+			counter ++;
+			
+		}
+		
+		sb.append(");");
+		
+		return sb.toString();
 	}
 	
 	private static float median(float param1, float param2){

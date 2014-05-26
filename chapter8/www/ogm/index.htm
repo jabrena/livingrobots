@@ -1,0 +1,54 @@
+<!DOCTYPE HTML>
+<HTML>
+<head>
+	<meta http-equiv="refresh" content="1;url=http://192.168.0.101/ogm/index.htm">
+
+	<title>Occupancy grid map</title>
+
+	<!-- CSS -->
+	<link rel="stylesheet" href="./styles/bootstrap.css">
+	<link rel="stylesheet" href="./styles/bootstrap-responsive.css">
+	
+	<!-- JAVASCRIPT -->
+ 	<script type="text/javascript" src="./js/jquery-2.0.3.min.js" ></script>
+	<script type="text/javascript" src="./js/map2.js" ></script>
+	<script type="text/javascript">
+
+	function fillCanvas2(mapObj,data){
+		var width = "20";
+		var canvas = document.getElementById(mapObj);
+
+		for(y=0;y<data.length;y++){
+			for(x=0;x<data[y].length;x++){
+
+	
+				if (canvas.getContext) {
+					var color = Math.floor((Math.random()*10)+1);
+					var value = data[y][x];
+		
+					var context = canvas.getContext('2d');
+
+					if(value <= 0){
+						context.fillStyle = "rgb(150,29,28)"; // red
+					}else if (value > 0){
+						context.fillStyle = "rgb(150,83,28)"; // brown
+					//}else{
+						//context.fillStyle = "rgb(29,150,28)"; // light green
+					}
+
+					context.fillRect(x*width,y*width,width,width);
+					
+				}
+			}
+		}
+	}
+
+	$(function() {
+		fillCanvas2("mapM",mapM);
+	});
+    </script>
+</head>
+<body>
+	<canvas id="mapM" width="600" height="600"></canvas>
+</body>
+</html>
