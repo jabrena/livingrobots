@@ -39,33 +39,15 @@ public class RPLIDARSensor extends I2CSensor implements SensorMode {
 		for(int j= 0; j < RPILidarRegisterByte1.length; j++){
 			this.getData(RPILidarRegisterByte1[j], buffReadResponse, buffReadResponse.length);
 			this.getData(RPILidarRegisterByte2[j], buffReadResponse2, buffReadResponse2.length);
-          
-			updateDistances(RPILidarAngleBlocks[j]);
-		}
-		
-		samples = distances;
-	}
-	
-	public float[] fetchSample2(float[] samples, int offset) {
-		for(int j= 0; j < RPILidarRegisterByte1.length; j++){
-			this.getData(RPILidarRegisterByte1[j], buffReadResponse, buffReadResponse.length);
-			this.getData(RPILidarRegisterByte2[j], buffReadResponse2, buffReadResponse2.length);
-          
-			updateDistances(RPILidarAngleBlocks[j]);
-		}
-		
-		return distances;
-	}
-	
-	private void updateDistances(int from){
-		for(int i = 0; i < buffReadResponse.length; i++){
-			int value = (buffReadResponse[i] & 0xff);
-			int value2 = (buffReadResponse2[i] & 0xff);
-			distances[from + i] = value + value2;
 			
-			//System.out.print(from + i + " " + new String(String.valueOf(value2)) + " ");
-       }
-       //System.out.println(" ");
+			for(int i = 0; i < buffReadResponse.length; i++){
+				int value = (buffReadResponse[i] & 0xff);
+				int value2 = (buffReadResponse2[i] & 0xff);
+				distances[RPILidarAngleBlocks[j] + i] = value + value2;
+				samples[RPILidarAngleBlocks[j] + i] = value + value2;
+	       }
+		}
+
 	}
 
 	public int sampleSize() {

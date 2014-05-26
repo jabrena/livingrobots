@@ -26,9 +26,7 @@ public class RPLIDARTest {
 			
 			long startTime = System.currentTimeMillis();
 
-			//TODO: Discover why samples object doesn't update
-			//lidar.fetchSample(samples, 0);
-			samples = lidar.fetchSample2(samples, 0);
+			lidarMode.fetchSample(samples, 0);
 
 			generateJSON(samples);
 			

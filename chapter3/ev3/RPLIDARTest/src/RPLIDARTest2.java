@@ -7,6 +7,7 @@ import java.io.IOException;
 
 import lejos.hardware.Brick;
 import lejos.hardware.BrickFinder;
+import lejos.hardware.Power;
 import lejos.hardware.Sound;
 import lejos.hardware.motor.EV3LargeRegulatedMotor;
 import lejos.hardware.port.SensorPort;
@@ -26,6 +27,7 @@ public class RPLIDARTest2 {
 		System.out.println("RPLIDAR Sensor Test");
 		
 		Brick brick=BrickFinder.getDefault();
+		Power power = brick.getPower();
 		
 		RegulatedMotor leftMotor=new EV3LargeRegulatedMotor(brick.getPort("B"));
 		RegulatedMotor rightMotor=new EV3LargeRegulatedMotor(brick.getPort("A"));
@@ -57,9 +59,7 @@ public class RPLIDARTest2 {
 	        maxAngle = 0;
 	        maxAngleIndex = 0;
 
-			//TODO: Discover why samples object doesn't update
-			//lidar.fetchSample(samples, 0);
-			distances = lidar.fetchSample2(distances, 0);
+			lidarMode.fetchSample(distances, 0);
 
 			//Determinate maxAngle
 			for(int i = 0; i< angles.length; i++){
@@ -76,6 +76,7 @@ public class RPLIDARTest2 {
 			System.out.println("Max Distance: " + maxDistance);
 			System.out.println("Max i: " + maxAngleIndex);
 			System.out.println("Max Angle: " + maxAngle);
+			System.out.println("Battery: " + power.getVoltageMilliVolt());
 			
 			//TODO: Improve the movements in case of angles > 180 degrees
 			if(maxAngle > 180){

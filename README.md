@@ -78,10 +78,6 @@ Take a look a preliminar test using the Sensor.
 
 https://www.youtube.com/watch?v=1XT2HOc5IsA
 
-#### Issues
-
-    1. It is necessary to fix a bug in the method "fetchSample"
-
 ### Proprioceptors sensors
 
 Proprioception in robotics means sensing the internal state of the robot or a part of it . For example the posture of a mechanical manipulator, leg or other jointed mechanism or the battery level.
