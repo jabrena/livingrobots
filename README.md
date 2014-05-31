@@ -54,16 +54,6 @@ Sensors tested:
 
 RPLIDAR is a low cost 360 degree 2D laser scanner (LIDAR) solution developed by RoboPeak. The system can perform 360 degree scan within 6 meter range. The produced 2D point cloud data can be used in mapping, localization and object/environment modeling.
 
-Data visualization with a Polar Chart.
-
-    http://192.168.0.101/Radar/amcharts/polarChart.htm
-
-![ScreenShot](https://github.com/jabrena/livingrobots/raw/master/chapter5/docs/RPLIDAR_livingRoom2.png)
-
-Note: It is necessary to launch the webserver:
-
-    root@(none):~# httpd -v -h /home/lejos/www/
-
 #### Sensor support
 
 RPLIDAR Arduino Library: https://github.com/jabrena/livingrobots/raw/master/chapter3/arduino/RPLIDAR/Driver/RPLidarDriver_r1.0.zip
