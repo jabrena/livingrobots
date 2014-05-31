@@ -108,7 +108,7 @@ A robot needs to know the environment to operate. A LIDAR sensor help to discove
 
 In the following picture, you see a Polar View:
 
-![ScreenShot](https://raw.githubusercontent.com/jabrena/livingrobots/master/chapter5/docs/OGM_PolarChart.png)
+![ScreenShot](https://raw.githubusercontent.com/jabrena/livingrobots/master/chapter5/docs/RPLIDAR_livingRoom2.png)
 
     http://192.168.0.101/Radar/amcharts/polarChart.htm
 
