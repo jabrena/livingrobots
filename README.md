@@ -58,7 +58,7 @@ Data visualization with a Polar Chart.
 
     http://192.168.0.101/Radar/amcharts/polarChart.htm
 
-![ScreenShot](https://github.com/jabrena/livingrobots/raw/master/chapter3/docs/RPLIDAR_livingRoom.png)
+![ScreenShot](https://github.com/jabrena/livingrobots/raw/master/chapter5/docs/RPLIDAR_livingRoom2.png)
 
 Note: It is necessary to launch the webserver:
 
@@ -126,7 +126,7 @@ In the following picture you see the Occupancy grid map representation:
 
 ![ScreenShot](https://raw.githubusercontent.com/jabrena/livingrobots/master/chapter5/docs/OGM_WebView.png)
 
-    http://192.168.0.101/ogm/index.htm
+    http://192.168.0.101/ogm/index2.htm
 
 I have to analyze continue working in this development to create a map from the living room and evolve the system using Bayes theory.
 
