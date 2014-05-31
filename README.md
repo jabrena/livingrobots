@@ -94,14 +94,6 @@ In this chapter, user will learn basic concepts about Local & Global navigation
 
 ### Local navigation
 
-#### Wheeled mobile robots
-
-http://www.lejos.org/ev3/docs/lejos/robotics/navigation/DifferentialPilot.html
-
-http://www.lejos.org/ev3/docs/lejos/robotics/localization/OdometryPoseProvider.html
-
-http://www.lejos.org/ev3/docs/lejos/robotics/localization/CompassPoseProvider.html
-
 ####  Occupancy grid maps
 
 A robot needs to know the environment to operate. A LIDAR sensor help to discover the environment.
@@ -118,7 +110,7 @@ In the following picture you see the Occupancy grid map representation:
 
     http://192.168.0.101/ogm/index2.htm
 
-I have to analyze continue working in this development to create a map from the living room and evolve the system using Bayes theory.
+I have to analyze continue working in this development to create a map from the living room and later, evolve the system using Bayes theory.
 
 http://www.cs.ox.ac.uk/people/michael.wooldridge/teaching/robotics/lect05.pdf
 
@@ -132,9 +124,11 @@ Once the robot has the environment to operate, it is possible to use some kind o
 
 ##### LeJOS development:
 
-https://svn.code.sf.net/p/lejos/code/trunk/samples/src/org/lejos/sample/pathfinding/PathFinding.java
+http://www.lejos.org/ev3/docs/lejos/robotics/navigation/Navigator.html
 
-https://svn.code.sf.net/p/lejos/code/trunk/samples/src/org/lejos/sample/waypointnav/WaypointNav.java
+http://www.lejos.org/ev3/docs/lejos/robotics/localization/OdometryPoseProvider.html
+
+http://www.lejos.org/ev3/docs/lejos/robotics/navigation/Pose.html
 
 ##### Virtual Potential Fields
 
