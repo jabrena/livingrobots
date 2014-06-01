@@ -62,11 +62,13 @@ Arduino Sketch: https://github.com/jabrena/livingrobots/blob/master/chapter3/ard
 
 LeJOS Sensor Class: https://github.com/jabrena/livingrobots/blob/master/chapter3/ev3/RPLIDARTest/src/lejos/hardware/sensor/RPLIDARSensor.java
 
-### Usage
+### Data Visualization
 
-Take a look a preliminar test using the Sensor.
+I have added a simple example to generate a JSON file to view  LIDAR data in a polar chart in any web browser.
 
-https://www.youtube.com/watch?v=1XT2HOc5IsA
+![ScreenShot](https://raw.githubusercontent.com/jabrena/livingrobots/master/chapter5/docs/RPLIDAR_livingRoom2.png)
+
+    http://192.168.0.101/Radar/amcharts/polarChart.htm
 
 ### Proprioceptors sensors
 
@@ -98,12 +100,6 @@ In this chapter, user will learn basic concepts about Local & Global navigation
 
 A robot needs to know the environment to operate. A LIDAR sensor help to discover the environment.
 
-In the following picture, you see a Polar View:
-
-![ScreenShot](https://raw.githubusercontent.com/jabrena/livingrobots/master/chapter5/docs/RPLIDAR_livingRoom2.png)
-
-    http://192.168.0.101/Radar/amcharts/polarChart.htm
-
 In the following picture you see the Occupancy grid map representation:
 
 ![ScreenShot](https://raw.githubusercontent.com/jabrena/livingrobots/master/chapter5/docs/OGM_WebView.png)
@@ -117,6 +113,10 @@ http://www.cs.ox.ac.uk/people/michael.wooldridge/teaching/robotics/lect05.pdf
 http://www.cs.cmu.edu/~motionplanning/lecture/Chap9-Bayesian-Mapping_howie.pdf
 
 http://ais.informatik.uni-freiburg.de/teaching/ws12/mapping/pdf/slam02-bayes-filter-short.pdf
+
+http://ais.informatik.uni-freiburg.de/teaching/ws12/mapping/pdf/slam11-gridmaps-4.pdf
+
+http://veeck.de/material/iros04polyline_paper.pdf
 
 Once the robot has the environment to operate, it is possible to use some kind of Path Planning algorithm.
 
