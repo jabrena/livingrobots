@@ -112,16 +112,6 @@ Current solution start showing a real map about a real space using a EV3 Robot w
 
     http://192.168.0.101/ogm/index2.htm
 
-Other papers with useful information about Mapping:
-
-http://www.cs.cmu.edu/~motionplanning/lecture/Chap9-Bayesian-Mapping_howie.pdf
-
-http://ais.informatik.uni-freiburg.de/teaching/ws12/mapping/pdf/slam02-bayes-filter-short.pdf
-
-http://ais.informatik.uni-freiburg.de/teaching/ws12/mapping/pdf/slam11-gridmaps-4.pdf
-
-http://veeck.de/material/iros04polyline_paper.pdf
-
 #### Local path planning
 
 ##### Virtual Potential Fields

@@ -19,6 +19,14 @@ https://github.com/edgemaster/robotics/tree/master/lejos/tut5Probability/src/nav
 
 https://personalrobotics.ri.cmu.edu/courses/16662/scribe/scribe_lec23.pdf
 
+http://www.cs.cmu.edu/~motionplanning/lecture/Chap9-Bayesian-Mapping_howie.pdf
+
+http://ais.informatik.uni-freiburg.de/teaching/ws12/mapping/pdf/slam02-bayes-filter-short.pdf
+
+http://ais.informatik.uni-freiburg.de/teaching/ws12/mapping/pdf/slam11-gridmaps-4.pdf
+
+http://veeck.de/material/iros04polyline_paper.pdf
+
 ### Exercises
 
 http://ais.informatik.uni-freiburg.de/teaching/ss11/robotics/exercises/sheet07.pdf
