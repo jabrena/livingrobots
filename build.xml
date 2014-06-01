@@ -1,9 +1,13 @@
 <project name="HelloWorld" basedir="." default="main">
 
     <target name="clean">
+        <echo message="Dummy target"/>
+    </target>
+
+    <target name="test">
         <echo message="Testing TRAVIS CI"/>
     </target>
 
-    <target name="main" depends="clean"/>
+    <target name="main" depends="clean, test"/>
 
 </project>
