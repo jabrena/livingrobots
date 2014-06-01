@@ -15,7 +15,9 @@ If you enjoyed the previous ebook (http://juanantonio.info/lejos-ebook/) then bo
 
 ## Chapter 0:
 
-Downloads: https://github.com/jabrena/livingrobots/raw/master/chapter0/docs/LRWE_Chapter0.pdf
+    Last release: 1/6/2014
+
+Download: https://github.com/jabrena/livingrobots/raw/master/chapter0/docs/LRWE_Chapter0.pdf
 
 ## Chapter 1: Introduction
 
