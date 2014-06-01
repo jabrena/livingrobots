@@ -186,8 +186,9 @@ In this section, user will learn basic stuff about Modern web development.
 ### Examples
 
     Example: Web remote control with Websockets
-    Example: Data visualization for RPLIDAR
+    Example: Data visualization for RPLIDAR (Polar Chart)
     Example: Occupancy grid map viewer
+    Example: JSON generation
 
 ## Chapter 9: Communications
 
