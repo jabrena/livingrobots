@@ -106,7 +106,7 @@ To solve this Gap, I am trying to develop a better support to upgrade the class 
 
 http://www.cs.ox.ac.uk/people/michael.wooldridge/teaching/robotics/lect05.pdf
 
-Current solution begin to view a real map in few minutes using a LIDAR sensor mounted in a EV3 Robot.
+Current solution start showing a real map about a real space using a EV3 Robot with a 2D LIDAR in few minutes.
 
 ![ScreenShot](https://raw.githubusercontent.com/jabrena/livingrobots/master/chapter5/docs/OGM_WebView.png)
 
