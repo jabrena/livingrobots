@@ -1,5 +1,7 @@
 Living Robots
 =============
+
+[![Build Status](https://secure.travis-ci.org/jabrena/livingrobots.png)](http://travis-ci.org/jabrena/livingrobots)
  
 Living Robots, is the Github repository for the new Ebook about LeJOS "Living Robots with EV3".
 
@@ -9,8 +11,6 @@ If you enjoyed the previous ebook (http://juanantonio.info/lejos-ebook/) then bo
 
     05/04/2014: First commit
     05/25/2014: RPLIDAR Support for LeJOS
-
-[![Build Status](https://secure.travis-ci.org/jabrena/livingrobots.png)](http://travis-ci.org/jabrena/livingrobots)
 
 
 ## Chapter 0:
