@@ -82,7 +82,6 @@ Sensors tested:
 
     Example: IRSensor to detect a Beacon
     Example: The magic 8 ball using a EV3GyroSensor
-    Example: How to integrate Arduino with EV3
     Example: How to use the sensor RPLIDAR
     Example: How to generate JSON data to view LIDAR data
 
@@ -148,7 +147,7 @@ Examples: https://github.com/jabrena/liverobots
 
 Pending
 
-## Chapter 8: Web interfaces
+## Chapter 8: Internet, web services & web interfaces
 
 In this Chapter, the reader will learn many stuff about Web Servers and  Web interfaces for robots with EV3 Brick.
 
@@ -182,9 +181,14 @@ In this section, user will learn basic stuff about Modern web development.
     Example: Occupancy grid map viewer
     Example: JSON generation
 
-## Chapter 9: Communications
+## Chapter 9: Integrations with third parties
 
-This chapter covers the following technologies: Websockets, Http, RMI, D-Bus & I2C.
+This chapter covers the technologies used to integrate your robot with third parties as Arduino, New Sensors, Internet, etc...
+
+### Examples
+
+    Example: How to integrate Arduino with EV3
+    Example: RMI Client & Server example
 
 ## Chapter 15: Hacking robots
 
