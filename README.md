@@ -62,7 +62,7 @@ Arduino Sketch: https://github.com/jabrena/livingrobots/blob/master/chapter3/ard
 
 LeJOS Sensor Class: https://github.com/jabrena/livingrobots/blob/master/chapter3/ev3/RPLIDARTest/src/lejos/hardware/sensor/RPLIDARSensor.java
 
-### Data Visualization
+#### Data Visualization
 
 I have added a simple example to generate a JSON file to view  LIDAR data in a polar chart in any web browser.
 
@@ -98,17 +98,21 @@ In this chapter, user will learn basic concepts about Local & Global navigation
 
 ####  Occupancy grid maps
 
-A robot needs to know the environment to operate. A LIDAR sensor help to discover the environment.
+I am working in a better support for Occupancy grid map. Current leJOS support is poor and the implementation doesn't cover Bayes theory.
 
-In the following picture you see the Occupancy grid map representation:
+http://www.lejos.org/ev3/docs/lejos/robotics/mapping/OccupancyGridMap.html
+
+To solve this Gap, I am trying to develop a better support to upgrade the class and add Bayes support using some papers as:
+
+http://www.cs.ox.ac.uk/people/michael.wooldridge/teaching/robotics/lect05.pdf
+
+Current solution begin to view a real map in few minutes using a LIDAR sensor mounted in a EV3 Robot.
 
 ![ScreenShot](https://raw.githubusercontent.com/jabrena/livingrobots/master/chapter5/docs/OGM_WebView.png)
 
     http://192.168.0.101/ogm/index2.htm
 
-I have to analyze continue working in this development to create a map from the living room and later, evolve the system using Bayes theory.
-
-http://www.cs.ox.ac.uk/people/michael.wooldridge/teaching/robotics/lect05.pdf
+Other papers with useful information about Mapping:
 
 http://www.cs.cmu.edu/~motionplanning/lecture/Chap9-Bayesian-Mapping_howie.pdf
 
@@ -118,17 +122,7 @@ http://ais.informatik.uni-freiburg.de/teaching/ws12/mapping/pdf/slam11-gridmaps-
 
 http://veeck.de/material/iros04polyline_paper.pdf
 
-Once the robot has the environment to operate, it is possible to use some kind of Path Planning algorithm.
-
 #### Local path planning
-
-##### LeJOS development:
-
-http://www.lejos.org/ev3/docs/lejos/robotics/navigation/Navigator.html
-
-http://www.lejos.org/ev3/docs/lejos/robotics/localization/OdometryPoseProvider.html
-
-http://www.lejos.org/ev3/docs/lejos/robotics/navigation/Pose.html
 
 ##### Virtual Potential Fields
 
