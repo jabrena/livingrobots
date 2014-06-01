@@ -112,6 +112,8 @@ Current solution start showing a real map about a real space using a EV3 Robot w
 
     http://192.168.0.101/ogm/index2.htm
 
+I am thinking in some solution to export the map to use in next session. User could choose the map using some kind of web tool.
+
 #### Local path planning
 
 ##### Virtual Potential Fields
