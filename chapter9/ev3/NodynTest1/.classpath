@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src/main/java"/>
+	<classpathentry kind="src" path="src/test/java"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="lib/apacheds-core-1.5.7.jar"/>
+	<classpathentry kind="lib" path="lib/bcprov-jdk15on-150.jar"/>
+	<classpathentry kind="lib" path="lib/commons-lang3-3.3.2.jar"/>
+	<classpathentry kind="lib" path="lib/hazelcast-2.6.6.jar"/>
+	<classpathentry kind="lib" path="lib/jasmine-cli-0.0.12.jar"/>
+	<classpathentry kind="lib" path="lib/lang-dynjs-1.0.1.jar"/>
+	<classpathentry kind="lib" path="lib/lang-js-1.1.0.jar"/>
+	<classpathentry kind="lib" path="lib/netty-3.6.2.Final.jar"/>
+	<classpathentry kind="lib" path="lib/vertx-core-2.1.jar"/>
+	<classpathentry kind="lib" path="lib/dynjs-0.3.0.jar"/>
+	<classpathentry kind="lib" path="lib/jnr-posix-3.0.2.jar"/>
+	<classpathentry kind="lib" path="lib/jnr-constants-0.8.4.jar"/>
+	<classpathentry kind="lib" path="lib/vertx-platform-2.1.jar"/>
+	<classpathentry kind="lib" path="lib/args4j-2.0.21.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
