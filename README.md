@@ -185,6 +185,7 @@ In this section, user will learn basic stuff about Modern web development.
     Example: Data visualization for RPLIDAR (Polar Chart)
     Example: Occupancy grid map viewer
     Example: JSON generation
+    Example: Node.JS for JVM example
 
 ## Chapter 9: Integrations with third parties
 
