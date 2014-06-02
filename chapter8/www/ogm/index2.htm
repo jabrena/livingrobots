@@ -1,0 +1,295 @@
+<!DOCTYPE HTML>
+<HTML>
+<head>
+	<!-- <meta http-equiv="refresh" content="1;url=http://192.168.0.101/ogm/index2.htm"> -->
+
+	<title>Occupancy grid map</title>
+
+	<!--<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />-->
+
+	<!-- CSS -->
+	<link rel="stylesheet" href="./styles/bootstrap.css">
+	<link rel="stylesheet" href="./styles/bootstrap-responsive.css">
+	<link rel="stylesheet" href="./styles/ev3webui.css">
+	
+	<style>
+
+/*
+*{
+	margin:0; 
+	padding:0;
+}
+*/
+body{
+		font-family:"Times New Roman", Times, serif;
+		font-size: 10px;
+		background-color: #F0F0F0;
+}
+
+div.colHeader{
+	display:table-cell;
+	width:20px;
+	height:20px;
+	background-color:#CCFF00;
+	vertical-align:middle;
+	text-align:center;
+
+	border: 1px solid #707070;
+}
+
+div.colOccupied{
+	display:table-cell;
+	width:20px;
+	height:20px;
+	background-color:#FF6600;
+	vertical-align:middle;
+	text-align:center;
+
+	border: 1px solid #707070;
+}
+
+div.colOccupiedPlus{
+	display:table-cell;
+	width:20px;
+	height:20px;
+	background-color:red;
+	vertical-align:middle;
+	text-align:center;
+
+	border: 1px solid #707070;
+}
+
+div.colOccupiedLow{
+	display:table-cell;
+	width:20px;
+	height:20px;
+	background-color:black;
+	vertical-align:middle;
+	text-align:center;
+
+	border: 1px solid #707070;
+}
+
+div.colEmpty{
+	display:table-cell;
+	width:20px;
+	height:20px;
+	background-color:grey;
+	vertical-align:middle;
+	text-align:center;
+
+	border: 1px solid #707070;
+}
+
+div.colPose{
+	display:table-cell;
+	width:20px;
+	height:20px;
+	background-color:blue;
+	vertical-align:middle;
+	text-align:center;
+
+	border: 1px solid #707070;
+}
+
+.square {
+    position: relative;
+    margin: 20px;
+    display: inline-block; /* could be float */
+}
+.sq-setter-w {
+    width: 100%;
+    height: auto;
+    visibility: hidden;
+}
+.sq-setter-h {
+    width: auto;
+    height: 100%;
+    visibility: hidden;
+}
+.sq-content {
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    vertical-align:middle;
+    text-align:center;
+}
+
+/* just for display */
+.sq-setter-w + .sq-content {background-color: cyan}
+.sq-setter-h + .sq-content {background-color: yellow}
+
+
+	</style>
+
+	<!-- JAVASCRIPT -->
+	<script type="text/javascript" src="./js/jquery-2.0.3.min.js" ></script>
+	<script type="text/javascript">
+
+var REFRESH_TIME = 5000;
+
+function readJSON(){
+
+	var seed = Math.floor((Math.random() * 9999999999) + 1);
+	var mapURL = "./js/map.json" + "?seed=" + seed;
+	var rows = "";
+	var cols = "";
+
+	var pose;
+	var granularity = 0;
+	var x = 0;
+	var y = 0;
+	var row = 0;
+
+	$.getJSON( mapURL)
+	.done(function( data ) {
+
+		console.log(data);
+
+		pose = data.pose[0];
+		granularity = data.granularity;
+
+		//Clear UI
+		$("#ogm").fadeOut("slow");
+		$("#ogm").empty();
+
+		//Header
+		
+/*
+
+<div class="square" style="height: 20px">
+    <img src="http://dummyimage.com/20x20/000/fff.gif&text=20x20" class="sq-setter-h"/>
+    <div class="sq-content">-</div>
+</div>
+<div class="extrawrapper">
+<div class="square" style="width: 200px">
+    <img src="http://dummyimage.com/50x50/000/fff.gif&text=50x50" class="sq-setter-w"/>
+    <div class="sq-content">Here is content</div>
+</div>
+</div>
+<div class="extrawrapper">
+<div class="square" style="height: 100px">
+    <img src="http://dummyimage.com/50x50/000/fff.gif&text=50x50" class="sq-setter-h"/>
+    <div class="sq-content">Here is content</div>
+</div>
+</div>
+
+*/
+
+		var g = 0;
+		rows = "";
+		rows += "<div class='row'>";
+		rows += "<div class='colEmpty'>-";
+		rows += "</div>";
+		for(i = 0; i < data.mapM.length; i++){
+
+			g += data.granularity;
+
+			rows += "<div class='colHeader'>";
+			rows += "-"; //g;
+			rows += "</div>"; 
+		}
+		rows += "</div>";
+
+		$("#ogm").append(rows);
+
+		g = 0;
+
+		//TODO: Draw current pose
+		//console.log(pose.x);
+		//console.log(Math.floor(pose.x/granularity));
+		//console.log(Math.floor(pose.y/granularity));
+		x = Math.floor(pose.x/granularity);
+		y = Math.floor(pose.y/granularity);
+
+		$.each( data.mapM, function( i, item ) {
+
+			row++;
+
+			g += data.granularity;
+
+			rows = "";
+
+			rows += "<div class='row'>";
+			rows += "<div class='colHeader'>" + "-";//g;
+			rows += "</div>";
+
+
+			cols = item.row.split(",");
+			//console.log(item.row);
+
+			for(i = 0; i < cols.length; i++){
+
+				var value = cols[i];
+				if(value >0){
+
+					//console.log(row);
+
+					if((row == y) && (i == x)){
+						rows += "<div class='colPose'>";
+						console.log("asdf");
+					}else{
+						if(value >300){
+							rows += "<div class='colOccupiedPlus'>";
+						}else{
+							if(value >10){
+								rows += "<div class='colOccupied'>";
+							}else{
+								rows += "<div class='colOccupiedLow'>";
+							}
+
+						}
+					}
+
+
+				}else{
+					rows += "<div class='colEmpty'>";
+				}
+				rows += "-";//value;
+
+				rows += "</div>"; 
+			}
+
+			rows += "</div>";
+
+
+			$("#ogm").append(rows);
+			$("#ogm").fadeIn("slow");
+
+/*
+$('.colEmpty').click(function(e) {  
+    console.log("asdf");
+});
+*/
+
+		});
+	});
+
+	//console.log("OK");
+}
+
+/*
+	$(function() {
+		readJSON();
+	});
+*/
+
+	setInterval(      
+		function() {
+			readJSON();
+		},
+	REFRESH_TIME);
+
+    </script>
+</head>
+<body>
+	<div id="ogm"></div>
+	<!-- Main Container-->
+	<div class="container">
+		
+	</div>
+</body>
+</html>
