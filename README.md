@@ -23,7 +23,12 @@ Download: https://github.com/jabrena/livingrobots/raw/master/chapter0/docs/LRWE_
 
 ### Getting Started
 
-Once you have a brick with a WIFI Dongle (For exampe a Netgear WNA 1100), turn on the brick and connect with your computer using a USB wire. Open a shell window and type:
+Read the following docs:
+
+http://sourceforge.net/p/lejos/wiki/Getting%20started%20with%20leJOS%20EV3/
+http://sourceforge.net/p/lejos/wiki/Creating%20a%20bootable%20SD%20card/
+
+Once you have a EV3 brick running leJOS with a WIFI Dongle (For exampe a Netgear WNA 1100), turn on the brick and connect with your computer using a USB wire. Open a shell window and type:
 
     ssh lejos@10.0.1.1
     lejos@10.0.1.1's password: 
@@ -35,9 +40,9 @@ path: /home/root/lejos/bin/utils
 ctrl_interface=/var/run/wpa_supplicant
 
     network={
-        ssid="YOUR SSID"
+        ssid="YOUR_SSID"
         key_mgmt=WPA-PSK
-        psk=YOUR PSK
+        psk=YOUR_PSK
     }
 
 if your computer is not able to create a psk, use the following online tool:
@@ -45,6 +50,27 @@ https://www.wireshark.org/tools/wpa-psk.html
 
 later, execute the following command:
 /home/root/lejos/startwlan
+
+    root@(none):~/lejos/bin# ./startwlan 
+    Start WiFi...
+    Check configuration...
+    hostname is (none)
+    searching for wlan
+    using lejos config
+    wpa_state=DISCONNECTED
+    Searching for AP...
+    wpa_state=ASSOCIATING
+    Searching for AP...
+    wpa_state=COMPLETED
+    bssid=58:23:8c:03:6f:cc
+    ssid=YOUR_SSID
+    Request IP address...
+    udhcpc (v1.13.2) started
+    Sending discover...
+    Sending select for 192.168.0.13...
+    Lease of 192.168.0.13 obtained, lease time 3600
+    adding dns 62.81.16.213
+    adding dns 62.81.29.254
 
 ### Living Robots
 
