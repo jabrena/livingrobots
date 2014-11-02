@@ -190,7 +190,7 @@ I am thinking in some kind of solution to export the map to use later in next se
 
 ##### Virtual Potential Fields
 
-![ScreenShot](http://www.cs.mcgill.ca/~hsafad/robotics/report_files/image010.jpg)
+![ScreenShot](http://www.cs.mcgill.ca/~hsafad/robotics/report_files/image010.jpg) 
 
 http://www.cs.mcgill.ca/~hsafad/robotics/
 
