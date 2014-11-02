@@ -87,9 +87,9 @@ In the first stages, you don't need to use a robot structure to follow the book.
 
 Specifications:
 
-    EV3 Brick with a WIFI Dongle
-    Computer
-    Smartphone with Chrome
+    1x Lego Mindstorms EV3 Brick + EV3 Rechargable battery + Netgear WNA 1100
+    1x Smartphone + Chrome Web browser
+    1x Computer (A better experience with MAC OS or Ubuntu)
 
 #### Brity V2
 
