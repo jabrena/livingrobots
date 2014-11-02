@@ -23,6 +23,8 @@ Download: https://github.com/jabrena/livingrobots/raw/master/chapter0/docs/LRWE_
 
 ### Getting Started
 
+#### Set up your WIFI connection
+
 Read the following docs:
 
 http://sourceforge.net/p/lejos/wiki/Getting%20started%20with%20leJOS%20EV3/
@@ -30,8 +32,8 @@ http://sourceforge.net/p/lejos/wiki/Creating%20a%20bootable%20SD%20card/
 
 Once you have a EV3 brick running leJOS with a WIFI Dongle (For exampe a Netgear WNA 1100), turn on the brick and connect with your computer using a USB wire. Open a shell window and type:
 
-    ssh lejos@10.0.1.1
-    lejos@10.0.1.1's password: 
+    ssh root@10.0.1.1
+    root@10.0.1.1's password: 
 
 To configurate your WIFI connection edit the file wpa_supplicant.conf
 
@@ -72,7 +74,20 @@ later, execute the following command:
     adding dns 62.81.16.213
     adding dns 62.81.29.254
 
+Once you have a WIFI connection with your Router, you connect with your EV3 brick using the IP, in this case: 192.168.0.13 
+
+    ssh root@192.168.0.13
+    root@192.168.0.13's password:
+
 ### Living Robots
+
+#### Brick only
+
+In the first stages, you don't need to use a robot structure to follow the book. I recommend that you have:
+
+    EV3 Brick with a WIFI Dongle
+    Computer
+    Smartphone with Chrome
 
 #### Brity V2
 
