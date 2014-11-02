@@ -21,6 +21,31 @@ Download: https://github.com/jabrena/livingrobots/raw/master/chapter0/docs/LRWE_
 
 ## Chapter 1: Introduction
 
+### Getting Started
+
+Once you have a brick with a WIFI Dongle (For exampe a Netgear WNA 1100), turn on the brick and connect with your computer using a USB wire. Open a shell window and type:
+
+    ssh lejos@10.0.1.1
+    lejos@10.0.1.1's password: 
+
+To configurate your WIFI connection edit the file wpa_supplicant.conf
+
+path: /home/root/lejos/bin/utils
+
+ctrl_interface=/var/run/wpa_supplicant
+
+    network={
+        ssid="YOUR SSID"
+        key_mgmt=WPA-PSK
+        psk=YOUR PSK
+    }
+
+if your computer is not able to create a psk, use the following online tool:
+https://www.wireshark.org/tools/wpa-psk.html
+
+later, execute the following command:
+/home/root/lejos/startwlan
+
 ### Living Robots
 
 #### Brity V2
