@@ -23,12 +23,14 @@ Download: https://github.com/jabrena/livingrobots/raw/master/chapter0/docs/LRWE_
 
 ### Getting Started
 
-#### Set up your WIFI connection
+#### Install LeJOS
 
-Read the following docs:
+Read the following docs to install leJOS in your EV3 Brick:
 
 http://sourceforge.net/p/lejos/wiki/Getting%20started%20with%20leJOS%20EV3/
 http://sourceforge.net/p/lejos/wiki/Creating%20a%20bootable%20SD%20card/
+
+#### Set up your WIFI connection
 
 Once you have a EV3 brick running leJOS with a WIFI Dongle (For exampe a Netgear WNA 1100), turn on the brick and connect with your computer using a USB wire. Open a shell window and type:
 
@@ -78,6 +80,25 @@ Once you have a WIFI connection with your Router, you connect with your EV3 bric
 
     ssh root@192.168.0.13
     root@192.168.0.13's password:
+
+#### Run your first program
+
+Clone this GIT repository and install Eclipse IDE to import the following project:
+
+https://github.com/jabrena/livingrobots/tree/master/chapter8/ev3/HelloWorldWSS
+
+Once you have the example in your eclipse, run ANT file to install the application in your brick and the web application.
+
+Open a shell terminal and execute ssh to connect with your EV3 Brick. In the path: /home/lejos/programs/ execute the following command:
+
+    root@(none):/home/lejos/programs# jrun -jar HelloWorldWSS.0.1.jar 
+
+Open your web browser Chrome and type:
+
+    http://192.168.0.13/HelloWorld/
+
+Connect with your EV3 Brick and Speak with it.
+Enjoy!!!
 
 ### Living Robots
 
