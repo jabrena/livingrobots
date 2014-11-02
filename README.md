@@ -85,6 +85,8 @@ Once you have a WIFI connection with your Router, you connect with your EV3 bric
 
 In the first stages, you don't need to use a robot structure to follow the book. I recommend that you have:
 
+Specifications:
+
     EV3 Brick with a WIFI Dongle
     Computer
     Smartphone with Chrome
