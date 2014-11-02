@@ -194,6 +194,15 @@ I am thinking in some kind of solution to export the map to use later in next se
 
 http://www.cs.mcgill.ca/~hsafad/robotics/
 
+#### Inertial Navigation
+
+    https://code.google.com/p/deadreckoning/
+    http://www.html5rocks.com/en/tutorials/device/orientation/deviceorientationsample.html
+    http://www.albertosarullo.com/demos/accelerometer/
+    http://perso-etis.ensea.fr/~pierandr/cours/M1_SIC/AN3397.pdf
+    http://letsmakerobots.com/content/dead-reckoning-algorithms-solutions
+    http://www.cs.bris.ac.uk/Publications/Papers/2000009.pdf
+
 ## Chapter 6: Cognition
 
 ### Reactive Control
