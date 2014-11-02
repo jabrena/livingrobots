@@ -241,6 +241,22 @@ An example when the httpd is pretty busy:
      1551  1197 root     S     178m 300%  16% /home/root/lejos/ejre1.7.0_55/bin/java
      1735     1 root     R     2880   5%  11% httpd -v -h /home/lejos/www/ 
 
+### Web Sockets
+
+EV3 brick has not enought CPU to run a real J2EE web application server as Jetty or Tomcat, so if the develop need to run a Web Socket Server, at the moment the unique solution which I have found is the following project:
+
+https://github.com/TooTallNate/Java-WebSocket
+
+Note: I have used for all examples this library with sucess.
+
+### Web Services
+
+Modern web browsers as Chrome, has a pretty interesting API. In this section you will learn the following APIs:
+
+Web Speech API
+https://dvcs.w3.org/hg/speech-api/raw-file/tip/speechapi.html
+https://www.google.com/intl/en/chrome/demos/speech.html
+
 ### Web Interfaces
 
 In this section, user will learn basic stuff about Modern web development.
@@ -253,7 +269,7 @@ In this section, user will learn basic stuff about Modern web development.
     Example: Data visualization for RPLIDAR (Polar Chart)
     Example: Occupancy grid map viewer
     Example: JSON generation
-    Example: Node.JS for JVM example
+    Example: Web Speech API
 
 ## Chapter 9: Integrations with third parties
 
