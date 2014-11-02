@@ -1,0 +1,12 @@
+body {
+	padding-top: 20px;
+	padding-bottom: 40px;
+}
+
+.bodyContent{
+	margin-top:40px;
+}
+
+canvas {
+    border: 1px solid #333;
+}
