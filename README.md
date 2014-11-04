@@ -30,12 +30,51 @@ Read the following docs to install leJOS in your EV3 Brick:
 http://sourceforge.net/p/lejos/wiki/Getting%20started%20with%20leJOS%20EV3/
 http://sourceforge.net/p/lejos/wiki/Creating%20a%20bootable%20SD%20card/
 
-#### Set up your WIFI connection
+Once, you have LeJOS installed in your MicroSD, add it and plug your Wifi dongle and turn on.
+In this case, EV3 Brick will detect the MicroSD with a OS and LeJOS will run.
 
 Once you have a EV3 brick running leJOS with a WIFI Dongle (For exampe a Netgear WNA 1100), turn on the brick and connect with your computer using a USB wire. Open a shell window and type:
 
     ssh root@10.0.1.1
     root@10.0.1.1's password: 
+
+#### Preliminars
+
+##### Create a lejos user 
+
+    root@(none):/etc# adduser lejos   
+    adduser: /home/lejos: File exists
+    Changing password for lejos
+    Enter the new password (minimum of 5, maximum of 8 characters)
+    Please use a combination of upper and lower case letters and numbers.
+    Enter new password: 
+    Bad password: too short.
+
+    Warning: weak password (continuing).
+    Re-enter new password: 
+    Password changed.
+    root@(none):/etc#
+
+If you need to execute a command with root priviligies, you could use the following example:
+
+    soulFactory:bin jabrena$ ssh lejos@10.0.1.1
+    lejos@10.0.1.1's password: 
+    lejos@(none):~$ su -c /sbin/reboot
+    Password: 
+
+    Broadcast message from root (pts/0) (Sun Nov  2 22:31:21 2014):
+
+    The system is going down for reboot NOW!
+    lejos@(none):~$ Connection to 10.0.1.1 closed by remote host.
+    Connection to 10.0.1.1 closed.
+
+    lejos@(none):~/programs$ su -c "jrun -jar HelloWorld.0.1.jar"
+    Password: 
+    Hello World
+
+##### Run a Web Server in the startup
+
+##### Set up your WIFI connection
 
 To configurate your WIFI connection edit the file wpa_supplicant.conf
 
@@ -91,7 +130,7 @@ Once you have the example in your eclipse, run ANT file to install the applicati
 
 Open a shell terminal and execute ssh to connect with your EV3 Brick. In the path: /home/lejos/programs/ execute the following command:
 
-    root@(none):/home/lejos/programs# jrun -jar HelloWorldWSS.0.1.jar 
+    lejos@(none):~/programs$ jrun -jar HelloWorld.0.1.jar
 
 Open your web browser Chrome and type:
 

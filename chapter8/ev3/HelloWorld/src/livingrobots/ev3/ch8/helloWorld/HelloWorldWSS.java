@@ -1,4 +1,4 @@
-package livingrobots.ev3.ch8;
+package livingrobots.ev3.ch8.helloWorld;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -13,9 +13,9 @@ import org.java_websocket.framing.Framedata;
 import org.java_websocket.handshake.ClientHandshake;
 import org.java_websocket.server.WebSocketServer;
 
-public class HelloWorld extends WebSocketServer {
+public class HelloWorldWSS extends WebSocketServer {
 
-	public HelloWorld( int port ) throws UnknownHostException{
+	public HelloWorldWSS( int port ) throws UnknownHostException{
 		super( new InetSocketAddress( port ) );
 	}
 	
@@ -24,7 +24,7 @@ public class HelloWorld extends WebSocketServer {
 		
 		WebSocketImpl.DEBUG = true;
 		int port = 20000;
-		HelloWorld s = new HelloWorld(port);
+		HelloWorldWSS s = new HelloWorldWSS(port);
 		s.start();
 		System.out.println( "Websocket started on port: " + s.getPort() );
 
