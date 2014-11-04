@@ -1,0 +1,299 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"mar",
+				"margin-left"
+			],
+			[
+				"ms",
+				"msie8"
+			],
+			[
+				"marg",
+				"margin-bottom"
+			],
+			[
+				"m",
+				"margin-top"
+			],
+			[
+				"FON",
+				"font-family"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"c",
+				"clear"
+			],
+			[
+				"b",
+				"background-color"
+			],
+			[
+				"v",
+				"vertical-align"
+			],
+			[
+				"i",
+				"inline"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+	],
+	"file_history":
+	[
+		"/Applications/XAMPP/xamppfiles/htdocs/ILN_website/README.md",
+		"/Applications/XAMPP/xamppfiles/htdocs/ILN_website/Gruntfile.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/ILN_website/app/templates/contact.tpl",
+		"/Applications/XAMPP/xamppfiles/htdocs/ILN_website/app/Styles/index.css",
+		"/Applications/XAMPP/xamppfiles/htdocs/ILN_website/app/templates/index.tpl",
+		"/Applications/XAMPP/xamppfiles/htdocs/ILN_website/app/templates/projects.tpl",
+		"/Applications/XAMPP/xamppfiles/htdocs/ILN_website/app/Scripts/main.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/ILN_website/app/projects/index.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/ILN_website/app/templates/about.tpl",
+		"/Applications/XAMPP/xamppfiles/htdocs/Esmarlz_website/www/Gruntfile.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/Esmarlz_website/www/app/index.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/demo/demo4.htm",
+		"/Users/jabrena/Documents/demo4.htm",
+		"/Applications/XAMPP/xamppfiles/htdocs/Esmarlz_website/www/app/default.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/Esmarlz_website/www/app/styles/main.css",
+		"/Applications/XAMPP/xamppfiles/htdocs/Esmarlz_website/www/bower.json",
+		"/Applications/XAMPP/xamppfiles/htdocs/Esmarlz_website/README.md",
+		"/Applications/XAMPP/xamppfiles/htdocs/Esmarlz_website/www/package.json",
+		"/Users/jabrena/Documents/DATA/2014/RESEARCH/web/jee/JEELabs/strutsTest1/WebContent/WEB-INF/.gitignore",
+		"/Applications/XAMPP/xamppfiles/htdocs/ILN_website/app/index.html",
+		"/Users/jabrena/Documents/svgTest1/WebContent/kiwi.svg",
+		"/Applications/XAMPP/xamppfiles/htdocs/ILN_website/.ftppass",
+		"/Applications/XAMPP/xamppfiles/htdocs/ILN_website/.gitignore",
+		"/Applications/XAMPP/xamppfiles/htdocs/ILN_website/app/scripts/main.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/ILN_website/app/styles/index.css",
+		"/Applications/XAMPP/xamppfiles/htdocs/ILN_website/bower.json",
+		"/Applications/XAMPP/xamppfiles/htdocs/ILN_website/app/about.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/Esmarlz_website/www/index.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/Esmarlz_website/www/npm-debug.log",
+		"/Applications/XAMPP/xamppfiles/htdocs/Esmarlz_website/www/index.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/Esmarlz_website/www/app/.htaccess",
+		"/Applications/XAMPP/xamppfiles/htdocs/Esmarlz_website/www/phpinfo.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/Esmarlz_website/.gitignore",
+		"/Applications/XAMPP/xamppfiles/htdocs/Esmarlz_website/Esmarlz.sublime-project",
+		"/Users/jabrena/Documents/DATA/2014/PROJECTS/JAB8/BACKUP/books.htm",
+		"/Applications/XAMPP/xamppfiles/htdocs/FLPOCDev/XML/CustomerData.xml",
+		"/Applications/XAMPP/xamppfiles/htdocs/FLPOCDev/classes/CustomerData.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/FLPOCDev/Views/Pages/Retail/MyDetailsAndServices/ChangePersonalIDReceipt.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/FLPOCDev/Views/Pages/Retail/MyDetailsAndServices/ChangePhraseConfirm.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/FLPOCDev/Views/Pages/Retail/MyDetailsAndServices/ChangePhraseReceipt.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/FLPOCDev/Views/Pages/Retail/MyDetailsAndServices/ChangePersonalIDConfirm.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/FLPOCDev/Views/Pages/Retail/MyAccounts/SetUpNewSavingsGoalConfirm.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/FLPOCDev/Views/Pages/Retail/MyAccounts/AmendSavingsGoalConfirm.php",
+		"/Users/jabrena/Documents/DATA/2014/PROJECTS/JAB8/BACKUP/about.htm",
+		"/Users/jabrena/Documents/DATA/2014/PROJECTS/JAB8/BACKUP/Styles/jab8.css",
+		"/Users/jabrena/Documents/DATA/2014/PROJECTS/JAB8/BACKUP/index.htm",
+		"/Users/jabrena/Documents/DATA/2014/RESEARCH/robotics/lejos/livingrobots/chapter8/www/ogm/index5.html",
+		"/Users/jabrena/Documents/DATA/2014/DOCENCIA/ILN/SEMESTER2/ILN/README.md",
+		"/Users/jabrena/Documents/DATA/2014/RESEARCH/robotics/lejos/BoR/.project",
+		"/Users/jabrena/Documents/DATA/2014/MASTER/TER2/.classpath",
+		"/Users/jabrena/Documents/DATA/2014/RESEARCH/robotics/lejos/BoR/.classpath",
+		"/Users/jabrena/Documents/DATA/2014/PROJECTS/DOOMOS/IDEAS/jquery.mobile-1.4.1/demos/controlgroup-dynamic/index.html",
+		"/Users/jabrena/Documents/DATA/PROJECTS/webtraining/ILN/ILN.sublime-project",
+		"/D/DATA/JAB/ISBAN/EBANKING-TEAM/RD/POCS/Validator/_elTest.htm",
+		"/D/DATA/JAB/ISBAN/EBANKING-TEAM/RD/POCS/Validator/_validatorTest.htm",
+		"/D/DATA/JAB/ISBAN/EBANKING-TEAM/RD/POCS/Validator/validator.htm",
+		"/D/DATA/JAB/ISBAN/EBANKING-TEAM/RD/GIT/webtraining/ILN/www/index.htm",
+		"/D/DATA/JAB/ISBAN/EBANKING-TEAM/RD/POCS/Validator/Scripts/tests/elTests.js",
+		"/D/DATA/JAB/ISBAN/EBANKING-TEAM/RD/GIT/webtraining/ILN/sass/main.scss",
+		"/D/DATA/JAB/ISBAN/EBANKING-TEAM/RD/GIT/webtraining/ILN/sass/modules/_responsive.scss",
+		"/D/DATA/JAB/ISBAN/EBANKING-TEAM/RD/GIT/webtraining/ILN/www/Scripts/lib/App.js",
+		"/D/DATA/JAB/ISBAN/EBANKING-TEAM/RD/GIT/webtraining/ILN/www/Scripts/main.js",
+		"/D/DATA/JAB/ISBAN/EBANKING-TEAM/RD/GIT/webtraining/ILN/www/Scripts/App.js",
+		"/D/DATA/JAB/ISBAN/EBANKING-TEAM/RD/GIT/webtraining/ILN/www/Scripts/lib/helpers/utils.js",
+		"/D/DATA/JAB/ISBAN/EBANKING-TEAM/RD/GIT/webtraining/ILN/www/Scripts/app.js",
+		"/D/DATA/JAB/ISBAN/EBANKING-TEAM/RD/GIT/webtraining/ILN/_GIT_commands.txt",
+		"/D/DATA/JAB/ISBAN/EBANKING-TEAM/RD/GIT/webtraining/ILN/www/Scripts/app/main.js",
+		"/D/DATA/JAB/ISBAN/EBANKING-TEAM/RD/GIT/webtraining/ILN/sass/modules/_base.scss",
+		"/D/DATA/JAB/ISBAN/EBANKING-TEAM/RD/GIT/webtraining/ILN/sass/modules/_mixins.scss",
+		"/D/DATA/JAB/ISBAN/EBANKING-TEAM/RD/GIT/webtraining/ILN/sass/modules/_layout.scss",
+		"/D/DATA/JAB/ISBAN/EBANKING-TEAM/RD/GIT/webtraining/ILN/sass/config.rb",
+		"/D/DATA/JAB/ISBAN/EBANKING-TEAM/RD/GIT/webtraining/ILN/sass/modules/_colors.scss",
+		"/D/DATA/JAB/ISBAN/EBANKING-TEAM/RD/GIT/webtraining/ILN/www/updateBrowser.htm",
+		"/D/DATA/JAB/ISBAN/EBANKING-TEAM/RD/GIT/webtraining/ILN/sass/modules/_settings.scss",
+		"/D/DATA/JAB/ISBAN/EBANKING-TEAM/RD/GIT/webtraining/ILN/PROJECT_notes.txt",
+		"/D/DATA/JAB/ISBAN/EBANKING-TEAM/RD/GIT/webtraining/WebTraining/ILN/sass/config.rb",
+		"/D/DATA/JAB/ISBAN/EBANKING-TEAM/RD/GIT/webtraining/WebTraining/ILN/SASS_notes.txt",
+		"/D/DATA/JAB/ISBAN/EBANKING-TEAM/RD/POCS/POCs/SignUp/index.html",
+		"/D/DATA/JAB/ISBAN/EBANKING-TEAM/RD/GIT/webtraining/WebTraining/ILN/sass/modules/_settings.scss",
+		"/D/DATA/JAB/ISBAN/EBANKING-TEAM/RD/GIT/webtraining/WebTraining/ILN/GIT_commands.txt",
+		"/D/DATA/JAB/ISBAN/EBANKING-TEAM/RD/GIT/webtraining/WebTraining/ILN/PROJECT_notes.txt",
+		"/D/DATA/JAB/ISBAN/EBANKING-TEAM/RD/GIT/webtraining/WebTraining/ILN/sass/main.scss",
+		"/D/DATA/JAB/ISBAN/EBANKING-TEAM/RD/GIT/webtraining/WebTraining/ILN/index.htm",
+		"/D/DATA/JAB/ISBAN/EBANKING-TEAM/RD/GIT/webtraining/WebTraining/ILN/sass/screen.scss",
+		"/D/DATA/JAB/ISBAN/EBANKING-TEAM/RD/GIT/webtraining/WebTraining/ILN/www/index.htm",
+		"/D/DATA/JAB/ISBAN/EBANKING-TEAM/RD/GIT/webtraining/WebTraining/ILN/watchProject.bat.txt"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"h1",
+			"Georges_Braque",
+			"getItem",
+			"	<",
+			"attribution",
+			"order",
+			">\n"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "livingRobots.sublime-project",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 192.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

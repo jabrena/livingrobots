@@ -29,6 +29,7 @@ Read the following docs to install leJOS in your EV3 Brick:
 
 http://sourceforge.net/p/lejos/wiki/Getting%20started%20with%20leJOS%20EV3/
 http://sourceforge.net/p/lejos/wiki/Creating%20a%20bootable%20SD%20card/
+http://www.lejos.org/ev3/docs/
 
 Once, you have LeJOS installed in your MicroSD, add it and plug your Wifi dongle and turn on.
 In this case, EV3 Brick will detect the MicroSD with a OS and LeJOS will run.
@@ -285,7 +286,7 @@ Examples: https://github.com/jabrena/liverobots
 
 ## Chapter 7: Computer vision
 
-Pending
+### Track Color
 
 ## Chapter 8: Internet, web services & web interfaces
 
