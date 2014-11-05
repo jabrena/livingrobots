@@ -1,0 +1,69 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <style>
+      body {
+        margin: 0px;
+        padding: 0px;
+      }
+    </style>
+
+  <script type="text/javascript" src="./jquery.min.js" ></script>
+  <script type="text/javascript" src="./WebSocketConnector.js" ></script>
+
+  </head>
+  <body>
+  <form action="#" id="webSocketForm" name="webSocketForm" >
+    <fieldset>
+      <div class="control-group">
+        <label for="ip" class="control-label span3">IP *</label>
+        <div class="controls"><input type="text" id="ip" name="ip" class="string required span9" value="localhost" /></div>
+      </div>
+      <div class="control-group">
+        <label for="port" class="control-label span3">Port *</label>
+        <div class="controls"><input type="text" id="port" name="port" class="string required span9" value="20000" /></div>
+      </div>
+      <div class="control-group">
+        <label for="btConnect" class="control-label span3">Actions *</label>
+        <div class="controls">
+          <button type="button" class="btn connectWS" id="btConnect">Connect</button>
+          <button type="button" class="btn disconnectWS" id="btDisconnect">Disconnect</button>
+          <button type="button" class="btn send" id="btSend">Send</button>
+        </div>
+      </div>
+    </fieldset>
+  </form>
+  <div id="output"></div>
+  <hr />
+    <canvas id="myCanvas" width="578" height="400"></canvas>
+    <script>
+      var canvas = document.getElementById('myCanvas');
+      var context = canvas.getContext('2d');
+      var imageObj = new Image();
+
+      imageObj.onload = function() {
+        context.drawImage(imageObj, 69, 50);
+      };
+      imageObj.src = 'http://localhost:8080/xampp/img/xampp-logo-new.gif';
+    
+    $(function() {
+
+  $('#btSend').click(function() {
+    var message = "demo";
+
+    var image = context.getImageData(0, 0, canvas.width, canvas.height);
+    var buffer = new ArrayBuffer(image.data.length);
+    var bytes = new Uint8Array(buffer);
+    for (var i=0; i<bytes.length; i++) {
+        bytes[i] = image.data[i];
+    }
+    websocket.send(buffer);
+
+    //doSend(message);
+  });
+
+});
+
+    </script>
+  </body>
+</html> 

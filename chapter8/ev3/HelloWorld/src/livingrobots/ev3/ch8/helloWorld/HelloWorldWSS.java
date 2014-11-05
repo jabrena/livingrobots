@@ -71,6 +71,7 @@ public class HelloWorldWSS extends WebSocketServer {
 	@Override
 	public void onFragment( WebSocket conn, Framedata fragment ) {
 		System.out.println( "received fragment: " + fragment );
+		//this.sendToAll(fragment);
 	}
 	
 	@Override
@@ -98,4 +99,15 @@ public class HelloWorldWSS extends WebSocketServer {
 		}
 	}
 
+	/*
+	public void sendToAll( Framedata text ) {
+		Collection<WebSocket> con = connections();
+		synchronized ( con ) {
+			for( WebSocket c : con ) {
+				c.send( text );
+			}
+		}
+	}
+	*/
+	
 }
