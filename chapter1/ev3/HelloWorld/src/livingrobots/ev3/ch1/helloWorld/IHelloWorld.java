@@ -1,4 +1,4 @@
-package livingrobots.ev3.ch8.helloWorld;
+package livingrobots.ev3.ch1.helloWorld;
 
 public interface IHelloWorld {
 	public void showMessage();

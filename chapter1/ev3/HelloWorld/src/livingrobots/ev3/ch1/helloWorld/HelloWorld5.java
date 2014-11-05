@@ -1,4 +1,4 @@
-package livingrobots.ev3.ch8.helloWorld;
+package livingrobots.ev3.ch1.helloWorld;
 
 /**
  * HelloWorld is an example designed to understand the environment.

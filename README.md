@@ -132,6 +132,8 @@ Once you have the example in your eclipse, run ANT file to install the applicati
 Open a shell terminal and execute ssh to connect with your EV3 Brick. In the path: /home/lejos/programs/ execute the following command:
 
     lejos@(none):~/programs$ jrun -jar HelloWorld.0.1.jar
+    lejos@(none):~$ su -c "jrun -jar HelloWorld.0.1.jar"
+    lejos@(none):~/programs$ su -c "jrun -jar HelloWorld.0.1.jar demo"
 
 Open your web browser Chrome and type:
 

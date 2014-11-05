@@ -1,4 +1,4 @@
-package livingrobots.ev3.ch8.helloWorld;
+package livingrobots.ev3.ch1.helloWorld;
 
 /**
  * HelloWorld is an example designed to understand the environment.
@@ -7,23 +7,15 @@ package livingrobots.ev3.ch8.helloWorld;
  * @author jabrena
  *
  */
-public class HelloWorld2 {
+public class HelloWorld {
 
-	/**
-	 * Internal method designed to show in console a String.
-	 * 
-	 */
-	private static void showMessage(){
-		System.out.println("Hello World");
-	}
-	
 	/**
 	 * Main method
 	 * 
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		showMessage();
+		System.out.println("Hello World");
 	}
 
 }
