@@ -1,5 +1,7 @@
 package livingrobots.ev3.ch1.helloWorld;
 
+import lejos.hardware.Sound;
+
 /**
  * HelloWorld is an example designed to understand the environment.
  * This class show in console the string: "Hello World"
@@ -49,8 +51,10 @@ public class HelloWorld7 implements IHelloWorld{
 		if(args.length > 0) {
 			hw.showMessage(args[0]);
 		} else {
-			hw.showMessage("HelloWorld"); 
+			hw.showMessage(MESSAGE); 
 		}
+		
+		Sound.beep();
 		
 	}
 

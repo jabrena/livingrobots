@@ -142,6 +142,12 @@ Open your web browser Chrome and type:
 Connect with your EV3 Brick and Speak with it.
 Enjoy!!!
 
+### Examples
+
+    Example: A set of Examples evolving the class HelloWorld
+    Example: A program using LeJOS API 
+    Example: Example running a Web Socket Server
+
 ### Living Robots
 
 #### Brick only
@@ -288,7 +294,9 @@ Examples: https://github.com/jabrena/liverobots
 
 ## Chapter 7: Computer vision
 
-### Track Color
+### Examples
+
+    Example: Track color objects with your Smarphone
 
 ## Chapter 8: Internet, web services & web interfaces
 

@@ -54,7 +54,7 @@
     	    <fileset file="${dist.dir}/${jar.name}"/>
     	</scp>
 
-    	<!-- Copy WebApp -->
+    	<!-- Copy WebApp 
     	<sshexec host="${ev3.host}"
     		username="${credential.user}"
     		password="${credential.password}"
@@ -65,7 +65,7 @@
     	<scp todir="${credentials}@${ev3.host}:${lejos.user.www.dir}/HelloWorld" trust="true">
     		<fileset dir="${dist.www}/HelloWorld/"/>
     	</scp>
-    	
+    	-->
     </target>
 	
 </project>

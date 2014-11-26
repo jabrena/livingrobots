@@ -7,7 +7,7 @@ package livingrobots.ev3.ch1.helloWorld;
  * @author jabrena
  *
  */
-public class HelloWorld6 implements IHelloWorld{
+public class HelloWorld8 implements IHelloWorld{
 
 	/**
 	 * Internal variable with the message
@@ -17,7 +17,7 @@ public class HelloWorld6 implements IHelloWorld{
 	/**
 	 * Constructor
 	 */
-	public HelloWorld6(){
+	public HelloWorld8(){
 		
 	}
 	
@@ -43,8 +43,15 @@ public class HelloWorld6 implements IHelloWorld{
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		HelloWorld6 hw = new HelloWorld6();
-		hw.showMessage(MESSAGE);
+		HelloWorld8 hw = new HelloWorld8();
+		
+		
+		if(args.length > 0) {
+			hw.showMessage(args[0]);
+		} else {
+			hw.showMessage(MESSAGE); 
+		}
+		
 	}
 
 }
