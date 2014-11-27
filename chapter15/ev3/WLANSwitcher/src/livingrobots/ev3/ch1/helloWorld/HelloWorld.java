@@ -10,8 +10,12 @@ import java.io.InputStreamReader;
 public class HelloWorld
 {
     public static void main(String[] args) throws Exception {
-    	runShellCommand("date .", true);//'/home/root/lejos/bin/utils'
-        runShellCommand("ls -la", true);
+        //runShellCommand("ls -la /home/root/lejos/bin/utils/", true);
+        
+        //find /home/root/lejos/bin/utils/ | grep ".conf" 
+        runShellCommand("find /home/root/lejos/bin/utils/ | grep \".conf\"", true);
+        
+        runShellCommand("su -c /home/root/lejos/bin/startwlan", true);
     }
 
     /**
@@ -36,6 +40,6 @@ public class HelloWorld
 			if (printShellOutput){
                 System.out.println(currentLine);
 			}
-		}
+		};
 	}
 }
