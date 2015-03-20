@@ -31,6 +31,14 @@ http://sourceforge.net/p/lejos/wiki/Getting%20started%20with%20leJOS%20EV3/
 http://sourceforge.net/p/lejos/wiki/Creating%20a%20bootable%20SD%20card/
 http://www.lejos.org/ev3/docs/
 
+After you have installed leJOS on your PC, you will need to create an SD card. To do this you need an empty SD card with a FAT32 partition of at least 200MB. The card itself should be at least 1GB and no more than 32GB. SDXC cards are not supported by the EV3 hardware.
+If your card does not have a FAT32 partition, you can use a partition utility to reformat it as FAT32, or write the sd500.img file in the sd500.zip file (which is part of the distribution) to the disk as an image file (using dd or a disk image writing utility).
+You should then unzip the lejosimage.zip file from the leJOS home directory to the root directory of the card, and download and copy the Oracle JRE .tar.gz file to the card. The file is available at http://java.com/legomindstorms You should use the Java 7 version at this release. You will need to create a free Oracle account, if you do not have one.
+When you have written these files to the card, safely remove it, put it in the EV3 and boot the EV3. leJOS will then reformat your card to have a 500MB FAT32 partition and a Linux ext2 partition using the rest of the card. It will prepare the card for use by leJOS showing you its progress as it goes. This process takes about 8 minutes.
+
+---
+---
+
 Once, you have LeJOS installed in your MicroSD, add it and plug your Wifi dongle and turn on.
 In this case, EV3 Brick will detect the MicroSD with a OS and LeJOS will run.
 
