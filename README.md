@@ -11,7 +11,9 @@ If you enjoyed the previous ebook (http://juanantonio.info/lejos-ebook/) then bo
 
     05/04/2014: First commit
     05/25/2014: RPLIDAR Support for LeJOS
+    04/26/2012: 2 Britys tries to communicate.
 
+![ScreenShot](https://raw.githubusercontent.com/jabrena/livingrobots/master/chapter6/docs/twoBritys.jpg)
 
 ## Chapter 0:
 
@@ -282,7 +284,11 @@ http://www.cs.mcgill.ca/~hsafad/robotics/
 
 ### Reactive Control
 
-Pending
+Using EV3G, is possible to develop behaviours.
+
+![ScreenShot](https://raw.githubusercontent.com/jabrena/livingrobots/master/chapter6/docs/behaviourExample1.png)
+
+Example: https://github.com/jabrena/livingrobots/blob/master/chapter6/ev3/ev3g/behaviours2.ev3
 
 ### Behavior-Based Control
 
