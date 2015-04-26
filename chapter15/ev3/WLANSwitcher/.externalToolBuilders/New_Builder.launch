@@ -11,6 +11,7 @@
 <stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="org.eclipse.ant.internal.launching.remote.InternalAntRunner"/>
 <stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="WLANSwitcher"/>
 <stringAttribute key="org.eclipse.jdt.launching.VM_ARGUMENTS" value="-Dbuild.compiler=javac1.7"/>
+<booleanAttribute key="org.eclipse.ui.externaltools.ATTR_BUILDER_ENABLED" value="false"/>
 <stringAttribute key="org.eclipse.ui.externaltools.ATTR_LOCATION" value="${workspace_loc:/WLANSwitcher/build.xml}"/>
 <stringAttribute key="org.eclipse.ui.externaltools.ATTR_RUN_BUILD_KINDS" value="full,incremental,auto,"/>
 <booleanAttribute key="org.eclipse.ui.externaltools.ATTR_TRIGGERS_CONFIGURED" value="true"/>
