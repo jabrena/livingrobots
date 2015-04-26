@@ -33,16 +33,25 @@
       </div>
     </fieldset>
   </form>
+  <!--
+  <img src="" />
+  <canvas id="myCanvas" />
+
+var c=document.getElementById("myCanvas");
+var ctx=c.getContext("2d");
+var img=document.getElementById("scream");
+ctx.drawImage(img,10,10);
+-->
   <div id="output"></div>
   <hr />
-    <canvas id="myCanvas" width="578" height="400"></canvas>
+    <canvas id="myCanvas" width="200" height="59"></canvas>
     <script>
       var canvas = document.getElementById('myCanvas');
       var context = canvas.getContext('2d');
       var imageObj = new Image();
 
       imageObj.onload = function() {
-        context.drawImage(imageObj, 69, 50);
+        context.drawImage(imageObj, 0, 0);
       };
       imageObj.src = 'http://localhost:8080/xampp/img/xampp-logo-new.gif';
     
@@ -51,6 +60,7 @@
   $('#btSend').click(function() {
     var message = "demo";
 
+/*
     var image = context.getImageData(0, 0, canvas.width, canvas.height);
     var buffer = new ArrayBuffer(image.data.length);
     var bytes = new Uint8Array(buffer);
@@ -58,8 +68,13 @@
         bytes[i] = image.data[i];
     }
     websocket.send(buffer);
+*/
+var dataURL = canvas.toDataURL("image/png");
 
-    //doSend(message);
+     dataURL.replace(/^data:image\/(png|jpg);base64,/, "");
+
+
+    doSend(dataURL);
   });
 
 });

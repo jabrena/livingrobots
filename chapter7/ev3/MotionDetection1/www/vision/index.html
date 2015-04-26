@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/html">
+<head>
+<title>HTML5 CamSensor example 33</title> 
+<link rel="stylesheet" type="text/css" href="reset.css">
+<style>
+
+video {
+	display: none;
+}
+
+#container {
+
+}
+
+#camera {
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	overflow: hidden;
+	z-index: 0;
+}
+
+#canvas-source {
+	width: 100%;
+}
+
+#canvas-source {
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+</style>
+</head>
+<body>
+<div id="container">
+	<div id="camera">
+		<video id="video" width="500" height="500" autoplay="autoplay"></video>
+		<canvas id="canvas-source" width="500" height="500"></canvas>
+	</div>
+</div>
+
+<script type="text/javascript" src="jquery.min.js"></script>
+<script type="text/javascript" src="./Vision7.js"></script>
+<script type="text/javascript" src="./MotionTracking.js"></script>
+<script type="text/javascript" src="./DefaultImageProcessor.js"></script>
+<script type="text/javascript" src="./ccv.js"></script>
+<script type="text/javascript" src="./face.js"></script>
+<script type="text/javascript" src="./mustache.js"></script>
+<script type="text/javascript" src="./MoustacheProcessor.js"></script>
+<script type="text/javascript">
+
+$(function() {
+
+	//Image Processor
+	MotionTracking.train();
+	//MoustacheProcessor.init();
+
+	//Vision.js
+	Vision.setFPS(30);
+	Vision.setSize("auto");
+	//Vision.setSize(300,300);
+	Vision.initCamera();
+	Vision.setProcessor(MotionTracking);
+	Vision.run();
+
+	//Resize	
+	$(window).resize(
+		Vision.resize
+	);
+});
+
+</script>
+</body>
+</html>
