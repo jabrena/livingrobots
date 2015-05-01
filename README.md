@@ -3,9 +3,9 @@ Living Robots
 
 [![Build Status](https://secure.travis-ci.org/jabrena/livingrobots.png)](http://travis-ci.org/jabrena/livingrobots)
  
-Living Robots, is the Github repository for the new Ebook about LeJOS "Living Robots with EV3".
+Living Robots, is the Github repository for the new Ebook "Living Robots with EV3".
 
-"Living Robots with EV3" is a ebook designed to learn about development of Robots with modern techniques and technologies. The book put the focus in the platform Lego Mindstorms EV3, Linux and the programming language Java.
+"Living Robots with EV3" is a ebook designed to learn about development of Robots with modern techniques and technologies. The book put the focus in the platform Lego Mindstorms EV3.
 
 If you enjoyed the previous ebook (http://juanantonio.info/lejos-ebook/) then book your copy now: http://juanantonio.info/about.htm
 
@@ -312,7 +312,7 @@ Examples: https://github.com/jabrena/liverobots
 
     Example: Track color objects with your Smarphone
 
-## Chapter 8: Internet, web services & web interfaces
+## Chapter 8: Communications I // Internet, Web services & web interfaces
 
 In this Chapter, the reader will learn many stuff about Web Servers and  Web interfaces for robots with EV3 Brick.
 
@@ -363,14 +363,19 @@ In this section, user will learn basic stuff about Modern web development.
     Example: JSON generation
     Example: Web Speech API
 
-## Chapter 9: Integrations with third parties
-
-This chapter covers the technologies used to integrate your robot with third parties as Arduino, New Sensors, Internet, etc...
+## Chapter 9: Communications II // I2C, Bluetooth & RMI
 
 ### Examples
 
-    Example: How to integrate Arduino with EV3
     Example: RMI Client & Server example
+
+# Chapter 10: Arduino & EVShield
+
+Arduino is a Excellent board to extend the capabilities of a EV3 brick
+
+### Examples
+
+    Example: How to integrate Arduino with EV3 with LeJOS & EV3G
 
 ## Chapter 15: Hacking robots
 
