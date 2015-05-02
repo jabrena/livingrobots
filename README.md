@@ -212,7 +212,7 @@ RPLIDAR Arduino Library: https://github.com/jabrena/livingrobots/raw/master/chap
 
 Arduino Sketch: https://github.com/jabrena/livingrobots/blob/master/chapter3/arduino/RPLIDAR/Sketches/simple_connect6/simple_connect6.ino
 
-LeJOS Sensor Class: https://github.com/jabrena/livingrobots/blob/master/chapter3/ev3/RPLIDARTest/src/lejos/hardware/sensor/RPLIDARSensor.java
+LeJOS Sensor Class: https://github.com/jabrena/livingrobots/blob/master/chapter3/ev3/java/RPLIDARTest/src/lejos/hardware/sensor/RPLIDARSensor.java
 
 #### Data Visualization
 
